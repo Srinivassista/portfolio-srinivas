@@ -82,14 +82,14 @@ const Contact = ({ hero = false, bg = 'dark', ...rest }) => {
                 <ContactCard className="p-3 p-sm-5 ml-lg-5 mr-lg-5">
                   <Row>
                     <Col md="6" className="mb-3 d-flex justify-content-center">
-                      <a href="https://www.linkedin.com/in/wisaroot/" target="_blank">
+                      <a href="https://www.linkedin.com/in/srinivas-sista-5ba86a52/" target="_blank">
                         <SocialContainer>
                           <Span className="social-icon">
                             <FaLinkedinIn />
                           </Span>
 
                           <Text variant="small" className="social-text">
-                            linkedin.com/in/srinivas-sista-5ba86a52/
+                            Srinivas Sista
                           </Text>
                         </SocialContainer>
                       </a>
