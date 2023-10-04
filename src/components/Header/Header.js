@@ -325,7 +325,7 @@ const Header = ({ isDark }) => {
         </li>
         <li className="nav-item">
           <Link
-            to="awards"
+            to="certificates"
             spy={true}
             smooth={true}
             offset={-50}
@@ -333,7 +333,7 @@ const Header = ({ isDark }) => {
             className="nav-link"
             href="#"
           >
-            awards
+            certificates
           </Link>
         </li>
       </>

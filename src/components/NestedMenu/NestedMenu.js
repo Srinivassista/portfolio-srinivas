@@ -276,7 +276,7 @@ const NestedMenu = ({ menuItems = defaultMenuItems, onHideOffcanvas }) => {
         <ListGroup.Item>
           {
             <Link
-              to="awards"
+              to="certifications"
               spy={true}
               smooth={true}
               offset={-50}
@@ -284,7 +284,7 @@ const NestedMenu = ({ menuItems = defaultMenuItems, onHideOffcanvas }) => {
               href="#"
               onClick={onHideOffcanvas}
             >
-              awards
+              certifications
             </Link>
           }
         </ListGroup.Item>

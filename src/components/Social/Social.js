@@ -27,7 +27,7 @@ const SocialContainer = styled.div`
 
 function copy_email_icon() {
   /* Get the text field */
-  var copyText = 'l.wisaroot@gmail.com'
+  var copyText = 'sista.bits@gmail.com'
 
   navigator.clipboard.writeText(copyText)
 
@@ -38,7 +38,7 @@ function copy_email_icon() {
 
 function mouse_out_email_icon() {
   var tooltip = document.getElementById('copy-tooltip')
-  tooltip.innerHTML = 'L.Wisroot@gmail.com'
+  tooltip.innerHTML = 'sista.bits@gmail.com'
 }
 
 const Social = ({ items, outline, inverse, className, ...rest }) => {
@@ -101,13 +101,13 @@ const Social = ({ items, outline, inverse, className, ...rest }) => {
             `}
           >
             <span className="tooltiptext" id="copy-tooltip">
-              L.Wisroot@gmail.com
+            sista.bits@gmail.com
             </span>
             <FaEnvelope />
           </span>
         </div>
       </a>
-      <a href="https://www.linkedin.com/in/wisaroot/" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/srinivas-sista-5ba86a52/" target="_blank" rel="noopener noreferrer">
         <div className="social-icon">
           <span
             css={`
@@ -118,7 +118,7 @@ const Social = ({ items, outline, inverse, className, ...rest }) => {
           </span>
         </div>
       </a>
-      <a href="https://github.com/wisarootl" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.kaggle.com/srinivassista2305" target="_blank" rel="noopener noreferrer">
         <div className="social-icon">
           <span
             css={`
