@@ -8,7 +8,7 @@ import { Section, Button, Title, Text, Box } from '../components/Core'
 import Contact from '../sections/landing1/Contact'
 import imgWorkCover from '../assets/img/portfolio/ml-research-framework.png'
 import imgTimeTrans from '../assets/img/portfolio/timeoftrans.png'
-import imgDayTrans from '../assets/img/portfolio/daytrans.png'
+import imgDayTrans from '../assets/img/portfolio/daytrans.PNG'
 import { device, breakpoints } from '../utils'
 
 import { HiArrowNarrowLeft } from 'react-icons/hi'
