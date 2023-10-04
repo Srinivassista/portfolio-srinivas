@@ -146,7 +146,7 @@ const WorkSingle = () => {
                       Exploratory Analysis
                     </Title>
                     <Text variant="small">
-                    Initial exploratory analysis of given data to find relationship between target variable and features
+                    Initial exploratory analysis to find relationship between target variable and features
                     </Text>
                   </Col>
                 </Row>
@@ -205,41 +205,32 @@ const WorkSingle = () => {
           </Row>
           <Row className="justify-content-center mt-5 mb-4">
             <Col lg="9">
-              <Title variant="cardLg">04. Problems</Title>
+              <Title variant="cardLg">04. Analysis Techniques Used</Title>
               <p>
-                In typical machine learning processes, developers may need to use several different
-                libraries and tools, such as <code>Scikit-learn</code>,{' '}
-                <code>Imbalanced-learn</code>, <code>XGBoost</code>, and <code>Tensorflow</code>, to
-                complete various tasks. This can make the development process time-consuming and
-                complex.
+              • Student t-test
+              </p>
+              <p>
+              • ANOVA tests
+              </p>
+              <p>
+              • Logistic regression classifier
+              </p>
+              <p>
+              • Random Forest classifier
               </p>
             </Col>
           </Row>
           <Row className="justify-content-center mt-5 mb-4">
             <Col lg="9">
-              <Title variant="cardLg">05. Actions</Title>
+              <Title variant="cardLg">05. Exploratory Data Analysis</Title>
               <p>
-                • Implemented a composable <code>software design</code> to streamline the research
-                process and enable easy scaling of machine learning pipelines.
-              </p>
-              <p>
-                • Facilitated deployment of replicated machine learning pipelines from research
-                toward production.
-              </p>
-              <p>• Delivered outstanding results with a user-friendly and efficient framework.</p>
-              <p>
-                • Included a wide range of components for core machine-learning tasks, including
-                train-test split, <code>imputation</code>, <code>encoding</code>,{' '}
-                <code>upsampling</code>, <code>resampling</code>, and <code>cross-validation</code>,
-                as well as components for <code>supervised learning</code>,{' '}
-                <code>unsupervised learning</code>, <code>deep learning</code>,{' '}
-                <code>neural networks</code>,<code>recommendation systems</code>, and{' '}
-                <code>natural language processing</code>.
-              </p>
-              <p>
-                • Composed the framework with specially crafted components to handle potential
-                production errors, such as data with incorrect types or schema, without causing
-                explicit errors and ensuring uninterrupted operation.
+              The data is available in the form of a csv which was read into Python using pandas.
+              There were no missing values in the data and the data could be used as it was for analysis.
+              Some variables were created from existing variables
+              • Transaction time
+              • Transaction day of week
+              • Transaction category type
+              • Customer age from date of birth
               </p>
             </Col>
           </Row>
