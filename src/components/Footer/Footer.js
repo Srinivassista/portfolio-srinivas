@@ -17,29 +17,7 @@ const Footer = ({ isDark = true }) => {
           z-index: -50;
         `}
       >
-        <Container>
-          <div className="text-center">
-            <Title
-              variant="card"
-              css={`
-                font-size: 0.8125rem;
-              `}
-            >
-              © 2021 - {year} All Right Reserved. <br className="d-flex d-sm-none" />
-              Made with{' '}
-              <Span
-                color="red"
-                css={`
-                  padding: 0 1px;
-                `}
-              >
-                {' '}
-                <BsHeartFill />{' '}
-              </Span>{' '}
-              by <a href="https://www.google.com/">Wisaroot</a>
-            </Title>
-          </div>
-        </Container>
+        
       </Box>
     </>
   )
