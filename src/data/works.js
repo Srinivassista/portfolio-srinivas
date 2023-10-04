@@ -17,7 +17,7 @@ export const works = [
       `Machine Learning`
     ],
     thumbnail: imgT6,
-    link: '/ml-research-framework',
+    link: '/credit-card-fraud',
     description: (
       <>
         <p>
