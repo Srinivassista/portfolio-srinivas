@@ -328,12 +328,12 @@ const Profile = () => {
                       <div className="row">
                         <div className="col-12 col-md-8 profile-card-heading">
                           <Title variant="cardSm" className="profile-card-title">
-                            M.Sc. in Computer Science
+                            M.Sc. in Mathematics
                           </Title>
                           <Text variant="small" color="text" className="profile-card-organization">
-                            <span className="emphasize-text">Chulalongkorn Univerisity</span>{' '}
+                            <span className="emphasize-text">Birla Institute of Technology and Science,Pilani</span>{' '}
                             <br className="d-flex d-md-none" />
-                            (Merit scholarship from Chevron)
+                          
                           </Text>
                         </div>
                         {/* <div className="col-12 col-md-4 profile-card-date">
@@ -357,13 +357,12 @@ const Profile = () => {
                       <div className="row">
                         <div className="col-12 col-md-8 profile-card-heading">
                           <Title variant="cardSm" className="profile-card-title">
-                            B.Sc. in Chemical Engineering
+                            B.E in Civil Engineering
                           </Title>
                           <Text variant="small" color="text" className="profile-card-organization">
-                            <span className="emphasize-text">Chulalongkorn University</span>{' '}
+                            <span className="emphasize-text">Birla Institute of Technology and Science,Pilani</span>{' '}
                             <br className="d-flex d-md-none" />
-                            (1
-                            <sup>st</sup> Hons, Top 1 of the class)
+                            
                           </Text>
                         </div>
                         {/* <div className="col-12 col-md-4 profile-card-date">
@@ -391,32 +390,25 @@ const Profile = () => {
                 </ProfileCard>
                 <ProfileCard className="row">
                   <div className="col padding-dynamic">
-                    <p>
-                      • Data Science : <code>Python💪</code>, <code>Tensorflow</code>,{' '}
-                      <code>Scikit-Learn</code>, <code>XGBoost</code>,{' '}
-                      <code>Artificial Intelligence</code>, <code>Machine Learning💪</code>,{' '}
-                      <code>(Un)Supervised Learning</code>, <code>Tree-Based Model</code>,{' '}
-                      <code>Time Series</code>, <code>NLP</code>, <code>Recommender Systems</code>,{' '}
-                      <code>Neural Network</code>, <code>Deep Learning</code>,{' '}
-                      <code>Optimization</code>, <code>(Integer/Mixed) Linear Programming</code>,{' '}
-                      <code>Matplotlib</code>
+                  <p>
+                      • Data Analytics : <code>SQL💪</code>, {' '}
+                      <code>Data Cleaning</code>,<code>Data Visualisation</code>, <code>Excel and Gsheets💪</code>,{' '}
+                      <code>Reporting</code>, 
                     </p>
                     <p>
-                      • Software Development : <code>Javascript</code>, <code>C</code>,{' '}
-                      <code>Go</code>, <code>SQL</code>, <code>NoSQL</code>, <code>Git</code>,{' '}
-                      <code>Design Pattern</code>, <code>Functional Programming</code>,{' '}
-                      <code>OOP</code>, <code>CI/CD</code>, <code>Docker</code>,{' '}
-                      <code>Github Actions</code>, <code>HTML</code>, <code>CSS</code>,{' '}
-                      <code>React</code>, <code>Node.js</code>
+                      • Data Science : <code>Python💪</code>, {' '}
+                      <code>Data Wrangling with pandas</code>,<code>ML models with Scikit-Learn💪</code>,{' '}
+                      <code>(Un)Supervised Learning</code>, 
+                    </p>
+                    
+                    <p>
+                      • Other Expertise : <code>Project Management</code>, <code>Operations Excellence</code>,{' '}
+                      <code>Business Growth</code>, <code>Entrepreneurship</code>,{' '}
+                      <code>Statistics</code>
                     </p>
                     <p>
-                      • Other Expertise : <code>Finance</code>, <code>Credit Card</code>,{' '}
-                      <code>Risk Scoring</code>, <code>Statistics</code>,{' '}
-                      <code>Financial Analysis</code>, <code>Oil&Gas Production</code>
-                    </p>
-                    <p>
-                      • <code>Project Management</code>, <code>Thai (Native)</code>,{' '}
-                      <code>English (Professional)</code>
+                    
+                      • Languages : <code>English (Fluent)</code>,<code>Dutch (B2)</code>,{' '}
                     </p>
                   </div>
                 </ProfileCard>
