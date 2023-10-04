@@ -172,7 +172,7 @@ const Profile = () => {
               <Board lg="9">
                 <ProfileCard className="row">
                   <div className="col-12 padding-dynamic">
-                    <Title variant="cardLg">Experience</Title>
+                    <Title variant="cardLg">Relevant Experience</Title>
                   </div>
                 </ProfileCard>
                 <ProfileCard className="row">
@@ -188,25 +188,23 @@ const Profile = () => {
                       <div className="row">
                         <div className="col-12 col-xl-7 profile-card-heading">
                           <Title variant="cardSm" className="profile-card-title">
-                            Senior Data Scientist
+                            Data Analyst
                           </Title>
                         </div>
                         <div className="col-12 col-xl-5 d-none d-xl-block profile-card-date">
-                          <p>{/*Somewhere | */}Jul 2022 – present</p>
+                          <p>{/*Somewhere | */}Aug 2012 – Aug 2013</p>
                         </div>
                       </div>
                       <div className="row">
                         <div className="col-12 profile-card-heading">
                           <Text variant="small" color="text" className="profile-card-organization">
-                            <span className="emphasize-text">Honest Technology</span> : a
-                            data-driven neobank start-up with top-tier tech standards, advanced
-                            AI/ML and DevOps practices.
+                            <span className="emphasize-text">Fractal Analytics</span> : one of the most prominent providers of Artificial Intelligence to Fortune 500® companies.
                           </Text>
                         </div>
                       </div>
                       <div className="row">
                         <div className="col-12 d-xl-none profile-card-heading">
-                          <p>{/*Somewhere | */}Jul 2022 – present</p>
+                          <p>{/*Somewhere | */}Aug 2012 – Aug 2013</p>
                         </div>
                       </div>
                     </div>
@@ -215,17 +213,7 @@ const Profile = () => {
                     <div className="col logo-bottom"></div>
                     <Box className="col description-col" color="text">
                       <p>
-                        • Developed a <span className="emphasize-text">highly scalable</span> and{' '}
-                        <span className="emphasize-text">easily deployable</span>{' '}
-                        <code>Python</code> framework for <code>machine learning</code> research,
-                        abstracting various tools, including <code>Scikit-learn</code>,{' '}
-                        <code>TensorFlow</code>, <code>Optuna</code>, <code>Imbalanced-learn</code>,{' '}
-                        <code>XGBoost</code>, <code>Seaborn</code>, <code>Matplotlib</code>, and
-                        others. Includes <span className="emphasize-text">composable</span> core ML
-                        components for <code>preprocessing</code>,{' '}
-                        <code>(un)supervised learning</code>, <code>deep learning</code>, and{' '}
-                        <code>recommendation systems</code>, plus robust error handling capabilities
-                        in production.{' '}
+                        • Analysing consumer data to suggest new go to market products and strategies as well as targeted campaigns
                         <Link to="/ml-research-framework" color="text" target="_blank">
                           <FaExternalLinkAlt className="link-icon" />
                         </Link>
