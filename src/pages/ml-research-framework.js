@@ -227,11 +227,41 @@ const WorkSingle = () => {
               The data is available in the form of a csv which was read into Python using pandas.
               There were no missing values in the data and the data could be used as it was for analysis.
               Some variables were created from existing variables
-              • Transaction time
-              • Transaction day of week
-              • Transaction category type
-              • Customer age from date of birth
+              <p>• Transaction time</p>
+              <p>• Transaction day of week</p>
+              <p>• Transaction category type</p>
+              <p>• Customer age from date of birth</p>
               </p>
+            </Col>
+          </Row>
+          <Row className="justify-content-center mt-5 mb-4">
+            <Col lg="9">
+              <Title variant="cardLg">06. Data Modeling</Title>
+              <p>
+              Enter details
+              </p>
+            </Col>
+          </Row>
+          <Row className="justify-content-center mt-5 mb-4">
+            <Col lg="9">
+              <Title variant="cardLg">07. Findings and further research</Title>
+              <p>
+              The transaction amount, customer age and the time of day when the transaction occurred are very accurate 
+              predictors of whether a transaction is a fraud. I believe that there can still be a slight improvement in 
+              the model to reduce Type 1 error ( cases where there is a fraud but we predict there is not). For this we 
+              can either focus on hyperparameter tuning in the Random Forest classifier or try other classification 
+              models like Neural Networks.
+              </p>
+            </Col>
+          </Row>
+          <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
+            <Col lg="6" className="mb-5">
+              <img src={imgWorkCover} alt="" className="img-fluid w-100" />
+            </Col>
+          </Row>
+          <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
+            <Col lg="6" className="mb-5">
+              <img src={imgWorkCover} alt="" className="img-fluid w-100" />
             </Col>
           </Row>
           <Row className="justify-content-center mt-5 mb-4">
