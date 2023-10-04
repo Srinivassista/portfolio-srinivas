@@ -38,9 +38,9 @@ const WorkSingle = () => {
         <Container>
           <Row className="justify-content-center">
             <Col lg="9">
-              <Text variant="tag">Software Development</Text>
+              <Text variant="tag">Predictive Modeling</Text>
               <Title variant="secSm" className="my-4">
-                Machine Learning Research Framework
+                Credit Card Fraud Detection
               </Title>
             </Col>
           </Row>
