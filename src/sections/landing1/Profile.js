@@ -198,7 +198,7 @@ const Profile = () => {
                       <div className="row">
                         <div className="col-12 profile-card-heading">
                           <Text variant="small" color="text" className="profile-card-organization">
-                            <span className="emphasize-text">Fractal Analytics</span> : one of the most prominent providers of Artificial Intelligence to Fortune 500® companies.
+                            <span className="emphasize-text">Fractal Analytics</span> : a prominent provider of Artificial Intelligence to Fortune 500® companies.
                           </Text>
                         </div>
                       </div>
@@ -213,24 +213,12 @@ const Profile = () => {
                     <div className="col logo-bottom"></div>
                     <Box className="col description-col" color="text">
                       <p>
-                        • Analysing consumer data to suggest new go to market products and strategies as well as targeted campaigns
-                        <Link to="/ml-research-framework" color="text" target="_blank">
-                          <FaExternalLinkAlt className="link-icon" />
-                        </Link>
+                        • Created a Bayesian network of features (Size type, color, promotion) to understand their impact on sales of 
+                        diapers across multiple countries
+                                           
                       </p>
                       <p>
-                        • Cultivated <span class="emphasize-text">secure</span>,{' '}
-                        <span class="emphasize-text">scalable</span>,{' '}
-                        <span class="emphasize-text">maintainable</span> and{' '}
-                        <span class="emphasize-text">reliable</span> codebases through adherence to
-                        strict guidelines for <code>infrastructure as code</code>,{' '}
-                        <code>continuous integration/deployment</code>,{' '}
-                        <code>unit&shy;/&shy;integral testing</code>,{' '}
-                        <code>software development&shy;/&shy;coding best practices</code> and{' '}
-                        <code>security</code>, using modern tools such as{' '}
-                        <code>Terraform Cloud</code>, <code>CI/CD pipelines</code>,{' '}
-                        <code>GitHub Actions</code>, <code>code analysis</code> and{' '}
-                        <code>security&shy;/&shy;vulnerability tools</code>.
+                        • Combined data from different sources ( Excel, SQL database), manipulated data in R and used Tableau for creating compelling visuals
                       </p>
                     </Box>
                   </div>
