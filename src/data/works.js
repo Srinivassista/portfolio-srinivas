@@ -11,13 +11,9 @@ import { FaExternalLinkAlt } from 'react-icons/fa'
 
 export const works = [
   {
-    title: `Machine Learning Research Framework`,
+    title: `Credit Card Fraud Detection`,
     categories: [
-      `Software Development`,
       `Python`,
-      `Design Pattern`,
-      `Software Design`,
-      `Functional Programming`,
       `Machine Learning`
     ],
     thumbnail: imgT6,
@@ -25,16 +21,9 @@ export const works = [
     description: (
       <>
         <p>
-          Developed a <span className="emphasize-text">highly scalable</span> and{' '}
-          <span className="emphasize-text">easily deployable</span> <code>Python</code> framework
-          for <code>machine learning</code> research, abstracting various tools, including{' '}
-          <code>Scikit-learn</code>, <code>TensorFlow</code>, <code>Optuna</code>,{' '}
-          <code>Im&shy;balanced-learn</code>, <code>XGBoost</code>, <code>Seaborn</code>,{' '}
-          <code>Mat&shy;plotlib</code>, and others. Includes{' '}
-          <span className="emphasize-text">composable</span> core ML components for{' '}
-          <code>pre&shy;processing</code>, <code>(un)supervised learning</code>,{' '}
-          <code>deep learning</code>, and <code>recommend&shy;ation systems</code>, plus robust
-          error handling capabilities in production.
+          Created a ML model to predict whether a transaction is fraudulent on a dataset from Kaggle.
+          Used matplotlib to visualize relationships between target and predictor variables.
+          Compared results from multiple classification models using scikit-learn (Python).
         </p>
       </>
     )

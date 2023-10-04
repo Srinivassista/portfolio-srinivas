@@ -38,7 +38,7 @@ const WorkSingle = () => {
         <Container>
           <Row className="justify-content-center">
             <Col lg="9">
-              <Text variant="tag">Predictive Modeling</Text>
+              <Text variant="tag">Machine Learning</Text>
               <Title variant="secSm" className="my-4">
                 Credit Card Fraud Detection
               </Title>
@@ -46,29 +46,19 @@ const WorkSingle = () => {
           </Row>
           <Row className="justify-content-center mt-5 mb-4">
             <Col lg="9">
-              <Title variant="cardLg">01. Brief</Title>
+              <Title variant="cardLg">01. Learning Objective</Title>
               <p>
-                Developed a <span className="emphasize-text">highly scalable 🚀</span> and{' '}
-                <span className="emphasize-text">easily deployable 🔁</span> <code>Python</code>{' '}
-                <span className="emphasize-text">🐍</span> framework for{' '}
-                <code>machine learning</code> <span className="emphasize-text">🤖</span> research,
-                abstracting various tools, including <code>Scikit-learn</code>,{' '}
-                <code>TensorFlow</code>, <code>Optuna</code>, <code>Imbalanced-learn</code>,{' '}
-                <code>XGBoost</code>, <code>Seaborn</code>, <code>Matplotlib</code>, and others.
-                Includes <span className="emphasize-text">✅ composable</span> core ML components
-                for <code>preprocessing</code>, <code>(un)supervised learning</code>,{' '}
-                <code>deep learning</code>, and <code>recommendation systems</code>, plus robust
-                error handling capabilities in production.
+              1. Get experience in analysing credit card fraud
+              2. Explore simple classification models in Python
               </p>
             </Col>
           </Row>
           <Row className="justify-content-center mt-5 mb-4">
             <Col lg="9">
-              <Title variant="cardLg">02. Skills</Title>
+              <Title variant="cardLg">02. Analysis Objective</Title>
               <p>
-                <code>Software Development</code>, <code>Python</code>, <code>Design Pattern</code>,{' '}
-                <code>Software Design</code>, <code>Functional Programming</code>,{' '}
-                <code>Machine Learning</code>
+              Bank ABC wants to be able to predict whether a particular card usage is fraudulent based on many features.
+              This will help them to better inform the customer or take preventive actions in cases where a transaction is predicted to be fraudulent.
               </p>
             </Col>
           </Row>
@@ -79,7 +69,7 @@ const WorkSingle = () => {
           </Row>
           <Row className="justify-content-center mt-5 mb-1">
             <Col lg="9">
-              <Title variant="cardLg">03. Achievements</Title>
+              <Title variant="cardLg">03. Methodology</Title>
             </Col>
           </Row>
           <Row
@@ -153,11 +143,10 @@ const WorkSingle = () => {
                   </Col>
                   <Col className="col-12 achievements-desc" lg="12" sm="9">
                     <Title variant="cardSm" className="mt-3">
-                      Scalable ML framework
+                      Exploratory Analysis
                     </Title>
                     <Text variant="small">
-                      designed with composable software to streamline the research process and
-                      enable easy scaling of machine learning pipelines.
+                    Initial exploratory analysis of given data to find relationship between target variable and features
                     </Text>
                   </Col>
                 </Row>
@@ -179,13 +168,10 @@ const WorkSingle = () => {
                   </Col>
                   <Col className="col-12 achievements-desc" lg="12" sm="9">
                     <Title variant="cardSm" className="mt-3">
-                      Composable core ML components
+                      Data Cleaning and Feature Engineering
                     </Title>
                     <Text variant="small">
-                      includes support for essential machine learning components such as train-test
-                      split, imputation, encoding, upsampling, resampl&shy;ing, cross-validation,
-                      supervised learning, unsupervised learning, deep learning, neural networks,
-                      recommendation systems, and natural language processing.
+                      Clean available data, impute missing values and create derived features
                     </Text>
                   </Col>
                 </Row>
@@ -207,11 +193,10 @@ const WorkSingle = () => {
                   </Col>
                   <Col className="col-12 achievements-desc" lg="12" sm="9">
                     <Title variant="cardSm" className="mt-3">
-                      Seamless pipeline deployment
+                      Classification ML models
                     </Title>
                     <Text variant="small">
-                      facilitated deployment of replicated machine learning pipelines from research
-                      to production.
+                    Creating classification models for prediction of fraud and compare model performances.
                     </Text>
                   </Col>
                 </Row>
