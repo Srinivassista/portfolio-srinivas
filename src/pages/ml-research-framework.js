@@ -254,16 +254,6 @@ const WorkSingle = () => {
               </p>
             </Col>
           </Row>
-          <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
-            <Col lg="6" className="mb-5">
-              <img src={imgWorkCover} alt="" className="img-fluid w-100" />
-            </Col>
-          </Row>
-          <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
-            <Col lg="6" className="mb-5">
-              <img src={imgWorkCover} alt="" className="img-fluid w-100" />
-            </Col>
-          </Row>
           <Row className="justify-content-center mt-5 mb-4">
             <Link to="/">
               <Button>
