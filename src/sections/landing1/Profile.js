@@ -425,127 +425,21 @@ const Profile = () => {
                 <ProfileCard className="row">
                   {/* <div className="col-12 mb-4 padding-dynamic"> */}
                   <div className="col-12 padding-dynamic">
-                    <Title variant="cardLg">Awards / Certifications</Title>
+                    <Title variant="cardLg">Certifications</Title>
                   </div>
                 </ProfileCard>
                 <ProfileCard className="row">
                   <div className="col padding-dynamic">
                     <p>
-                      <Link href={cs50x_2023} target="_blank">
-                        CS50x
-                      </Link>{' '}
-                      by Harvard University •{' '}
-                      <Link href={mlops_2022} target="_blank">
-                        MLOps Specialization
-                      </Link>{' '}
-                      by Deeplearning.ai •{' '}
-                      <Link href={sql_and_databases_2022} target="_blank">
-                        SQL and Databases Bootcamp
-                      </Link>{' '}
-                      •{' '}
-                      <Link href={database_engineering_2022} target="_blank">
-                        Fundamentals of Database Engineering
-                      </Link>{' '}
-                      •{' '}
-                      <Link href={google_cloud_digital_leader_training_2022} target="_blank">
-                        Google Cloud Digital Leader Training
-                      </Link>{' '}
-                      •{' '}
-                      <Link href={clean_code_2022} target="_blank">
-                        Clean Code
-                      </Link>{' '}
-                      •{' '}
-                      <Link href={pyspark_2022} target="_blank">
-                        PySpark
-                      </Link>{' '}
-                      (Spark with Python) •{' '}
-                      <Link href={devops_terraform_2022} target="_blank">
-                        DevOps: Infrastructure As Code With Terraform
-                      </Link>{' '}
-                      •{' '}
-                      <Link href={docker_kubernetes_2022} target="_blank">
-                        Docker & Kubernetes
-                      </Link>{' '}
-                      •{' '}
-                      <Link href={feature_engineering_2022} target="_blank">
-                        Feature Engineering
-                      </Link>{' '}
-                      •{' '}
-                      <Link href={feature_selection_2022} target="_blank">
-                        Feature Selection
-                      </Link>{' '}
-                      •{' '}
-                      <Link href={hyperparameter_optimization_2022} target="_blank">
-                        Hyperparameter Optimization
-                      </Link>{' '}
-                      •{' '}
-                      <Link href={mlds_bootcamp_2022} target="_blank">
-                        Machine Learning & Data Science Bootcamp
-                      </Link>{' '}
-                      •{' '}
-                      <Link href={system_design_2022} target="_blank">
-                        System Design
-                      </Link>{' '}
-                      •{' '}
-                      <Link href={design_patterns_2022} target="_blank">
-                        Design Patterns
-                      </Link>{' '}
-                      •{' '}
-                      <Link href={functional_programming_2022} target="_blank">
-                        Functional Programming
-                      </Link>{' '}
-                      •{' '}
-                      <Link href={programming_expert} target="_blank">
-                        Programming Expert
-                      </Link>{' '}
-                      (Python and Golang) •{' '}
-                      <Link href={python_oop_2022} target="_blank">
-                        Python OOP{' '}
-                      </Link>
-                      •{' '}
-                      <Link href={git_github_2022} target="_blank">
-                        Git & Github
-                      </Link>{' '}
-                      •{' '}
-                      <Link href={mlexpert_2022} target="_blank">
-                        Machine Learning Expert
-                      </Link>{' '}
-                      •{' '}
-                      <Link href={complete_web_dev_ztm_2022} target="_blank">
-                        The Complete Web Developer
-                      </Link>{' '}
-                      •{' '}
-                      <Link href={frontend_expert_2023} target="_blank">
-                        FrontendExpert
-                      </Link>{' '}
-                      •{' '}
-                      <Link href={algoexpert_2022} target="_blank">
-                        AlgoExpert
-                      </Link>{' '}
-                      (Algorithm, Data Structure) •{' '}
-                      <Link href={data_scientist_python_2020} target="_blank">
-                        Data Scientist with Python Track
-                      </Link>{' '}
-                      by Data Camp
+                    • Data Analyst Professional Certificate | IBM (Coursera)
+                    • SQL Basics for Data Science | UC Davis (Coursera)
+                    • Data Vizualisation with Tableau | UC Davis (Coursera)
                     </p>
 
                     <p>
                       <br />
                     </p>
-                    <p>
-                      <Link href="https://basno.com/cy8buily" target="_blank">
-                        Chartered Financial Analyst (CFA) I
-                      </Link>{' '}
-                      •{' '}
-                      <Link href={toefl} target="_blank">
-                        TOEFL ITP
-                      </Link>{' '}
-                      (560/677) •{' '}
-                      <Link href={toeic} target="_blank">
-                        TOEIC
-                      </Link>{' '}
-                      (925/990)
-                    </p>
+                    
                   </div>
                 </ProfileCard>
               </Board>
