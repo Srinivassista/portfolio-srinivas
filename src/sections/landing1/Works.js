@@ -65,40 +65,40 @@ const Works = () => {
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === 'Data Science' ? 'active' : null
+                    activeLink === 'Data Analysis' ? 'active' : null
                   }`}
                   onClick={(e) => {
                     e.preventDefault()
-                    filterBy('Data Science')
+                    filterBy('Data Analysis')
                   }}
                 >
-                  Data Science
+                  Data Analysis
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === 'Software Development' ? 'active' : null
+                    activeLink === 'Machine Learning' ? 'active' : null
                   }`}
                   onClick={(e) => {
                     e.preventDefault()
-                    filterBy('Software Development')
+                    filterBy('Machine Learning')
                   }}
                 >
-                  Software Development
+                  Machine Learning
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === 'Web Development' ? 'active' : null
+                    activeLink === 'Data Visualisation' ? 'active' : null
                   }`}
                   onClick={(e) => {
                     e.preventDefault()
-                    filterBy('Web Development')
+                    filterBy('Data Visualisation')
                   }}
                 >
-                  Web Development
+                  Data Visualisation
                 </a>
               </li>
             </ListNav>
