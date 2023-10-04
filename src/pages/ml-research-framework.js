@@ -7,6 +7,7 @@ import { Element } from 'react-scroll'
 import { Section, Button, Title, Text, Box } from '../components/Core'
 import Contact from '../sections/landing1/Contact'
 import imgWorkCover from '../assets/img/portfolio/ml-research-framework.png'
+import imgTimeTrans from '../assets/img/portfolio/timeoftrans.png'
 import { device, breakpoints } from '../utils'
 
 import { HiArrowNarrowLeft } from 'react-icons/hi'
@@ -231,7 +232,11 @@ const WorkSingle = () => {
                 There are 989 unique customers whose transactions are in the data. 
                 I wanted to understand the impact of the following features/variables on the target variable ( is_fraud)</p>
               <p>• Time of transaction : There is a clear indication that most fraud happens between 9 PM to 3 AM. 
-                <img> src="src/assets/img/portfolio/timeoftrans.png" alt="timeoftransactions" width="500" height="600"</img>
+              <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
+              <Col lg="6" className="mb-5">
+                <img src={imgTimeTrans} alt="" className="img-fluid w-100" />
+            </Col>
+          </Row>
               </p>
               <p>• Day of week of transaction : There does seem to be significant variration in fraud by day of week. 
                 An ANOVA test gave an f-statistic of 30 with a very low p-value, confirming that not all Dayofweek have 
