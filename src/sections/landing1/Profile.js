@@ -237,18 +237,17 @@ const Profile = () => {
                       <div className="row">
                         <div className="col-12 col-xl-7 profile-card-heading">
                           <Title variant="cardSm" className="profile-card-title">
-                            Petroleum Engineer
+                            Operations Manager (Commercial)
                           </Title>
                         </div>
                         <div className="col-12 col-xl-5 d-none d-xl-block profile-card-date">
-                          <p>{/*Somewhere | */}Jul 2017 – Apr 2022</p>
+                          <p>{/*Somewhere | */}Nov 2013 – Mar 2015</p>
                         </div>
                       </div>
                       <div className="row">
                         <div className="col-12 profile-card-heading">
                           <Text variant="small" color="text" className="profile-card-organization">
-                            <span className="emphasize-text">Chevron</span> : a world-leading oil
-                            and gas company
+                            <span className="emphasize-text">Lazada</span> : Largest e-commerce operator in South East Asia
                           </Text>
                         </div>
                       </div>
@@ -263,31 +262,12 @@ const Profile = () => {
                     <div className="col logo-bottom"></div>
                     <Box className="col description-col" color="text">
                       <p>
-                        • Designed and developed{' '}
-                        <span className="emphasize-text">algorithm-driven software</span> using{' '}
-                        <code>Python</code>, <code>VBA</code>, and <code>linear programming</code>{' '}
-                        for production <code>optimization</code>, resulting in a{' '}
-                        <span className="emphasize-text">15.2% increase in oil production</span>,{' '}
-                        <span className="emphasize-text">
-                          $15.3 million/year in additional revenue
-                        </span>
-                        , and improved workforce efficiency with reduced errors.{' '}
-                        <Link to="/production-optimization" color="text" target="_blank">
-                          <FaExternalLinkAlt className="link-icon" />
-                        </Link>
+                        • Analyzing sales and marketing data to create strategies for 
+                        category management team that enabled them to make important decisions during the hyper growth phase of the company.
                       </p>
                       <p>
-                        • Led the development of a{' '}
-                        <span className="emphasize-text">software application</span> using{' '}
-                        <code>Python</code> and <code>VBA</code> to enable <code>scalable</code>{' '}
-                        pipeline network modeling,{' '}
-                        <span className="emphasize-text">
-                          cutting investment costs by $49.8 million
-                        </span>
-                        .{' '}
-                        <Link to="/pipeline-network-modelling" color="text" target="_blank">
-                          <FaExternalLinkAlt className="link-icon" />
-                        </Link>
+                        • Coordinating activities between Purchasing and other departments within the company to achieve profitability, 
+                        margin and inventory KPIs. Driving important KPI focussed meetings ( S&OP, Overstock) to reduce operational risk within the e-retail business
                       </p>
                       <p>
                         • Demonstrated exceptional <code>project management</code> skills in
@@ -432,7 +412,11 @@ const Profile = () => {
                   <div className="col padding-dynamic">
                     <p>
                     • Data Analyst Professional Certificate | IBM (Coursera)
+                    </p>
+                    <p>
                     • SQL Basics for Data Science | UC Davis (Coursera)
+                    </p>
+                    <p>
                     • Data Vizualisation with Tableau | UC Davis (Coursera)
                     </p>
 
