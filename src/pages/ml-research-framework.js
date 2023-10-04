@@ -230,7 +230,9 @@ const WorkSingle = () => {
               <p>The data consisted of 1296675 rows and 23 columns in the training dataset spread across 730 days.
                 There are 989 unique customers whose transactions are in the data. 
                 I wanted to understand the impact of the following features/variables on the target variable ( is_fraud)</p>
-              <p>• Time of transaction : There is a clear indication that most fraud happens between 9 PM to 3 AM. </p>
+              <p>• Time of transaction : There is a clear indication that most fraud happens between 9 PM to 3 AM. 
+                <img> src="src/assets/img/portfolio/timeoftrans.png" alt="timeoftransactions" width="500" height="600"</img>
+              </p>
               <p>• Day of week of transaction : There does seem to be significant variration in fraud by day of week. 
                 An ANOVA test gave an f-statistic of 30 with a very low p-value, confirming that not all Dayofweek have 
                 zero impact on the target variable.</p>
