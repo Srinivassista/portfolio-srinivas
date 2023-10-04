@@ -48,7 +48,7 @@ const SocialContainer = styled.div`
 
 function copy_email_contact() {
   /* Get the text field */
-  var copyText = 'l.wisaroot@gmail.com'
+  var copyText = 'sista.bits@gmail.com'
 
   navigator.clipboard.writeText(copyText)
 
@@ -59,7 +59,7 @@ function copy_email_contact() {
 
 function mouse_leave_email_contact() {
   var tooltip = document.getElementById('email-contact')
-  tooltip.innerHTML = 'L.Wisaroot@gmail.com'
+  tooltip.innerHTML = 'sista.bits@gmail.com'
 }
 
 const Contact = ({ hero = false, bg = 'dark', ...rest }) => {
@@ -89,7 +89,7 @@ const Contact = ({ hero = false, bg = 'dark', ...rest }) => {
                           </Span>
 
                           <Text variant="small" className="social-text">
-                            linkedin.com/in/wisaroot
+                            linkedin.com/in/srinivas-sista-5ba86a52/
                           </Text>
                         </SocialContainer>
                       </a>
@@ -110,7 +110,7 @@ const Contact = ({ hero = false, bg = 'dark', ...rest }) => {
                             id="email-contact"
                             onClick={copy_email_contact}
                           >
-                            L.Wisaroot@gmail.com
+                            sista.bits@gmail.com
                           </Text>
                         </SocialContainer>
                       </a>
@@ -124,7 +124,7 @@ const Contact = ({ hero = false, bg = 'dark', ...rest }) => {
                             <FaPhoneAlt />
                           </Span>
                           <Text variant="small" className="social-text">
-                            (+66)97-162-4939
+                            (+31)683773181
                           </Text>
                         </SocialContainer>
                       </a>
@@ -136,7 +136,7 @@ const Contact = ({ hero = false, bg = 'dark', ...rest }) => {
                             <FaMapMarkerAlt />
                           </Span>
                           <Text variant="small" className="social-text">
-                            Bangkok, Thailand
+                            The Netherlands
                           </Text>
                         </SocialContainer>
                       </a>
