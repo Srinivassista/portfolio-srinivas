@@ -269,13 +269,7 @@ const Profile = () => {
                         • Coordinating activities between Purchasing and other departments within the company to achieve profitability, 
                         margin and inventory KPIs. Driving important KPI focussed meetings ( S&OP, Overstock) to reduce operational risk within the e-retail business
                       </p>
-                      <p>
-                        • Demonstrated exceptional <code>project management</code> skills in
-                        coordinating cross-functional teams for various operational projects driving{' '}
-                        <span className="emphasize-text">$128.5 million more benefits</span> and{' '}
-                        <span className="emphasize-text">zero injury/incident</span> from my
-                        projects.
-                      </p>
+                      
                     </Box>
                   </div>
                 </ProfileCard>
