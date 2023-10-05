@@ -247,6 +247,7 @@ const Profile = () => {
                     </Box>
                   </div>
                 </ProfileCard>
+                <hr />
                 <ProfileCard className="row">
                   <div className="row logo-position-row w-100">
                     <div className="col logo">
