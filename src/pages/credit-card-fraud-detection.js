@@ -337,7 +337,10 @@ const WorkSingle = () => {
                   </Col>
                 </Row>
                 <p>
-                • The model is a decent classifier but results in high type 1 errors ( False negatives).
+                • The features with the highest importance were
+                 <p> - Transaction Amount</p>
+                 <p> - Age of customer</p>
+                 <p> - Hour of day of transaction</p>
                 </p>
             </Col>
           </Row>
