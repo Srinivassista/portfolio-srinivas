@@ -261,37 +261,37 @@ const WorkSingle = () => {
               </Col>
               </Row>
               
-              <p>• Amount of transaction : A boxplot of amount vs is_fraud showed that transactions which were not fraud 
+              <p>• <b><u>Amount of transaction</u></b> : A boxplot of amount vs is_fraud showed that transactions which were not fraud 
                 had a very low mean and lots of outliers whereas fraud transactions seem to have very little variance and 
                 are usually higher in value that non-fraudulent transactions. The mean and medians for fraud transactions 
                 are almost 10x the non fraud ones. </p>
-                <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
+              <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
               <Col lg="6" className="mb-5">
                 <img src={imgAmtTrans} alt="" className="img-fluid w-100" />
               </Col>
               </Row>
-              <p> • Merchant : I looked at the merchants with highest rate of fraud transactions and drilled down and noticed 
+              <p> •  <b><u>Merchant</u></b> : I looked at the merchants with highest rate of fraud transactions and drilled down and noticed 
                 that they all shared a certain Category of transaction. To explore further I created a list of outlier 
                 merchants with high fraud levels and compared the fraud distribution across these merchants by category 
                 to the distribution of fraud by category for all merchants. I did not notice any difference, leading me to 
                 conclude that merchants themselves were not an important predictor of fraud but the transaction category might be.</p>
-               <p> • Distance between merchant location and customer location : There was no relationship between the physical 
+               <p> •  <b><u>Distance between merchant location and customer location</u></b> : There was no relationship between the physical 
                 distance between merchant and customer to is_fraud.</p>
-                <p>• City/State : I observed that some states had very high fraud rate with particularly 3 outliers. Digging deeper 
+                <p>•  <b><u>City/State</u></b> : I observed that some states had very high fraud rate with particularly 3 outliers. Digging deeper 
                 I could see that 2 out of these 3 states had high fraud ratio as the same customer had multiple fraud transactions 
                 in that state. This led me to conclude that the state was not an important predictor of fraud. I did the same 
                 with cities, but also created a table of unique customers frauded per city to remove outliers. The cities with 
                 very high fraud rate were also not in the high fraud rate States. I did not have a strong indication that this 
                 feature should be part of the model so I decided to make the model without city first.</p>
-                <p>• Categories : Category of transaction had a clear impact on the probability of fraud as witnessed by the below graph. </p>
+                <p>•  <b><u>Categories</u></b> : Category of transaction had a clear impact on the probability of fraud as witnessed by the below graph. </p>
                 <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
               <Col lg="6" className="mb-5">
-                <img src={imgCatTrans} alt="" className="img-fluid w-100" />
+                <img src={imgCatTrans} alt="" width="500" height="300">
               </Col>
               </Row>
-                <p> • Gender of customer: The fraud ratio between genders was also observed to be different with male customers 
+                <p> •  <b><u>Gender of customer</u></b>: The fraud ratio between genders was also observed to be different with male customers 
                 getting frauded 0.64% compared to 0.53% for females. </p>
-                <p>• Age of customer : There was a difference between fraud rates based on the customer age as seen from the 
+                <p>•  <b><u>Age of customer</u></b> : There was a difference between fraud rates based on the customer age as seen from the 
                 boxplot below. This was confirmed statitically by running a t-test which gave a t-statistic of 14.14 with 
                 a very low p-value thus establishing that the distributions of age by is_fraud were different.</p>
                 <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
