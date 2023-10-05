@@ -24,6 +24,7 @@ import { BiDollar } from 'react-icons/bi'
 import { FaTrophy, FaSmileBeam } from 'react-icons/fa'
 import { FcFactory } from 'react-icons/fc'
 import { IoIosRocket } from 'react-icons/io'
+import { SiWpexplorer } from 'react-icons/si'
 
 import { TbRobot, TbPlugConnected } from 'react-icons/tb'
 
@@ -142,7 +143,7 @@ const WorkSingle = () => {
                           color: #e8ad11;
                         `}
                       >
-                        <IoIosRocket />
+                        <SiWpexplorer/>
                       </span>
                     </div>
                   </Col>
@@ -245,7 +246,7 @@ const WorkSingle = () => {
                 I wanted to understand the impact of the following features/variables on the target variable ( is_fraud)</p>
               <p>• <b><u>Time of transaction</u></b> : There is a clear indication that most fraud happens between 9 PM to 3 AM. 
               <Row>
-                
+
               </Row>
               <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
               <Col lg="6" className="mb-5">
