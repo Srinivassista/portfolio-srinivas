@@ -26,6 +26,7 @@ import { FcFactory } from 'react-icons/fc'
 import { IoIosRocket } from 'react-icons/io'
 import { HiEye } from 'react-icons/hi'
 import { BiBong } from 'react-icons/bi'
+import { FaProjectDiagram } from 'react-icons/fa'
 
 
 import { TbRobot, TbPlugConnected } from 'react-icons/tb'
@@ -170,7 +171,7 @@ const WorkSingle = () => {
                           color: #7a996d;
                         `}
                       >
-                        <TbRobot />
+                        <BiBong />
                       </span>
                     </div>
                   </Col>
@@ -195,7 +196,7 @@ const WorkSingle = () => {
                           color: #e4a8ae;
                         `}
                       >
-                        <TbPlugConnected />
+                        <FaProjectDiagram />
                       </span>
                     </div>
                   </Col>
