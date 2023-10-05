@@ -6,7 +6,6 @@ import { Element } from 'react-scroll'
 
 import { Section, Button, Title, Text, Box } from '../components/Core'
 import Contact from '../sections/landing1/Contact'
-import imgWorkCover from '../assets/img/portfolio/ml-research-framework.png'
 import imgTimeTrans from '../assets/img/portfolio/timeoftrans.png'
 import imgDayTrans from '../assets/img/portfolio/daytrans.png'
 import imgAgeTrans from '../assets/img/portfolio/agetrans.png'
@@ -59,8 +58,8 @@ const WorkSingle = () => {
             <Col lg="9">
               <Title variant="cardLg">01. Learning Objective</Title>
               <p>
-              1. Get experience in analysing credit card fraud
-              2. Explore simple classification models in Python
+              <p>1. Get experience in analysing credit card fraud</p>
+              <p>2. Explore simple classification models in Python</p>
               </p>
             </Col>
           </Row>
@@ -245,10 +244,9 @@ const WorkSingle = () => {
                 There are 989 unique customers whose transactions are in the data. 
                 I wanted to understand the impact of the following features/variables on the target variable ( is_fraud)</p>
               <p>• <b><u>Time of transaction</u></b> : There is a clear indication that most fraud happens between 9 PM to 3 AM. 
-              
               <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
               <Col lg="6" className="mb-5">
-                <img src={imgTimeTrans} alt="" height="auto" width="800" />
+              <img src={imgTimeTrans} alt="" height="auto" width="800" align = "left"/>
               </Col>
               </Row>
               </p>
