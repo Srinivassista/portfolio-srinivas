@@ -244,6 +244,9 @@ const WorkSingle = () => {
                 There are 989 unique customers whose transactions are in the data. 
                 I wanted to understand the impact of the following features/variables on the target variable ( is_fraud)</p>
               <p>• <b><u>Time of transaction</u></b> : There is a clear indication that most fraud happens between 9 PM to 3 AM. 
+              <Row>
+                
+              </Row>
               <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
               <Col lg="6" className="mb-5">
               <img src={imgTimeTrans} alt="" height="auto" width="800" align = "left"/>
