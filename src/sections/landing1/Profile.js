@@ -19,33 +19,7 @@ import chulaLogoDark from '../../assets/img/profile/chula-dark.png'
 import GlobalContext from '../../context/GlobalContext'
 import { device } from '../../utils'
 
-// cert.
-import mlexpert_2022 from '../../assets/cert/2022_mlexpert.pdf'
-import algoexpert_2022 from '../../assets/cert/2022_algoexpert.pdf'
-import data_scientist_python_2020 from '../../assets/cert/2020_data_scientist_python.pdf'
-import complete_web_dev_ztm_2022 from '../../assets/cert/2022_complete_web_dev_ztm.pdf'
-import toefl from '../../assets/cert/2020_TOEFL.pdf'
-import toeic from '../../assets/cert/2020_TOEIC.pdf'
-import git_github_2022 from '../../assets/cert/2022_git_github.pdf'
-import python_oop_2022 from '../../assets/cert/2022_python_oop.pdf'
-import programming_expert from '../../assets/cert/2022_programming_expert.pdf'
-import functional_programming_2022 from '../../assets/cert/2022_functional_programming.pdf'
-import design_patterns_2022 from '../../assets/cert/2022_design_patterns.pdf'
-import system_design_2022 from '../../assets/cert/2022_system_design.pdf'
-import mlds_bootcamp_2022 from '../../assets/cert/2022_mlds_bootcamp.pdf'
-import hyperparameter_optimization_2022 from '../../assets/cert/2022_hyperparameter_optimization.pdf'
-import feature_selection_2022 from '../../assets/cert/2022_feature_selection.pdf'
-import feature_engineering_2022 from '../../assets/cert/2022_feature_engineering.pdf'
-import docker_kubernetes_2022 from '../../assets/cert/2022_docker_kubernetes.pdf'
-import devops_terraform_2022 from '../../assets/cert/2022_devops_terraform.pdf'
-import pyspark_2022 from '../../assets/cert/2022_pyspark.pdf'
-import clean_code_2022 from '../../assets/cert/2022_clean_code.pdf'
-import google_cloud_digital_leader_training_2022 from '../../assets/cert/2022_google_cloud_digital_leader_training.pdf'
-import database_engineering_2022 from '../../assets/cert/2022_database_engineering.pdf'
-import sql_and_databases_2022 from '../../assets/cert/2022_sql_and_databases.pdf'
-import mlops_2022 from '../../assets/cert/2022_mlops.pdf'
-import cs50x_2023 from '../../assets/cert/2023_cs50x.pdf'
-import frontend_expert_2023 from '../../assets/cert/2023_frontend_expert.pdf'
+
 
 const ProfileCard = styled(Box)`
   margin-top: 0.5rem;
@@ -366,19 +340,19 @@ const Profile = () => {
                   <div className="col padding-dynamic">
                   <p>
                       • Data Analytics : <code>SQL💪</code>, {' '}
-                      <code>Data Cleaning</code>,<code>Data Visualisation</code>, <code>Excel and Gsheets💪</code>,{' '}
-                      <code>Reporting</code>, 
+                      Data Cleaning,Data Visualisation, <code>Excel and Gsheets💪</code>,{' '}
+                      Reporting 
                     </p>
                     <p>
                       • Data Science : <code>Python💪</code>, {' '}
-                      <code>Data Wrangling with pandas</code>,<code>ML models with Scikit-Learn💪</code>,{' '}
-                      <code>(Un)Supervised Learning</code>, 
+                      Data Wrangling with pandas,<code>ML models with Scikit-Learn💪</code>,{' '}
+                      (Un)Supervised Learning 
                     </p>
                     
                     <p>
-                      • Other Expertise : <code>Project Management</code>, <code>Operations Excellence</code>,{' '}
-                      <code>Business Growth</code>, <code>Entrepreneurship</code>,{' '}
-                      <code>Statistics</code>
+                      • Other Expertise : Project Management, Operations Excellence,{' '}
+                      Business Growth, Entrepreneurship,{' '}
+                      Statistics
                     </p>
                     <p>
                     
