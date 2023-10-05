@@ -301,7 +301,7 @@ const WorkSingle = () => {
                 <p>•  <b><u>Age of customer</u></b> : There was a difference between fraud rates based on the customer age as seen from the 
                 boxplot below. This was confirmed statitically by running a t-test which gave a t-statistic of 14.14 with 
                 a very low p-value thus establishing that the distributions of age by is_fraud were different.</p>
-                <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
+              <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
               <Col lg="6" className="mb-5">
                 <img src={imgAgeTrans} alt="" height="300" width="300" className="img-fluid w-100"/>
                 <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
