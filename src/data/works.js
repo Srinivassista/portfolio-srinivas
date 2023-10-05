@@ -13,11 +13,11 @@ export const works = [
   {
     title: `Credit Card Fraud Detection`,
     categories: [
-      `Python`,
+      `Data Analysis`,
       `Machine Learning`
     ],
     thumbnail: imgT6,
-    link: '/ml-research-framework',
+    link: '/credit-card-fraud-detection',
     description: (
       <>
         <p>
