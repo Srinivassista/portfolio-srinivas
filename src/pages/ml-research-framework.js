@@ -9,6 +9,14 @@ import Contact from '../sections/landing1/Contact'
 import imgWorkCover from '../assets/img/portfolio/ml-research-framework.png'
 import imgTimeTrans from '../assets/img/portfolio/timeoftrans.png'
 import imgDayTrans from '../assets/img/portfolio/daytrans.PNG'
+import imgAgeTrans from '../assets/img/portfolio/agetrans.PNG'
+import imgAgeTrans2 from '../assets/img/portfolio/agetrans2.PNG'
+import imgAmtTrans from '../assets/img/portfolio/amttrans.PNG'
+import imgCatTrans from '../assets/img/portfolio/cattrans.PNG'
+import imgLRCM from '../assets/img/portfolio/logregcm.PNG'
+import imgLRROC from '../assets/img/portfolio/logregroc.PNG'
+import imgRFCM from '../assets/img/portfolio/rfcm.PNG'
+import imgRFROC from '../assets/img/portfolio/rfroc.PNG'
 import { device, breakpoints } from '../utils'
 
 import { HiArrowNarrowLeft } from 'react-icons/hi'
@@ -246,11 +254,7 @@ const WorkSingle = () => {
               <p>• Day of week of transaction : There does seem to be significant variration in fraud by day of week. 
                 An ANOVA test gave an f-statistic of 30 with a very low p-value, confirming that not all Dayofweek have 
                 zero impact on the target variable.</p>
-                <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
-              <Col lg="6" className="mb-5">
-                <img src={imgDayTrans} alt="" className="img-fluid w-100" />
-              </Col>
-              </Row>
+              
               <p>• Amount of transaction : A boxplot of amount vs is_fraud showed that transactions which were not fraud 
                 had a very low mean and lots of outliers whereas fraud transactions seem to have very little variance and 
                 are usually higher in value that non-fraudulent transactions. The mean and medians for fraud transactions 
