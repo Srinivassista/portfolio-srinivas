@@ -247,9 +247,9 @@ const WorkSingle = () => {
               <p>• <b><u>Time of transaction</u></b> : There is a clear indication that most fraud happens between 9 PM to 3 AM. 
               
               <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
-                
+                <Col lg="6" className="mb-5">
                   <img src={imgTimeTrans} alt="" height="auto" width="800" />
-                
+                </Col>
               </Row>
               
               </p>
