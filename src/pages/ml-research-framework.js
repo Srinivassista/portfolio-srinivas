@@ -248,7 +248,7 @@ const WorkSingle = () => {
               
               <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
               <Col lg="6" className="mb-5">
-                <img src={imgTimeTrans} alt="" height="400" width="800" />
+                <img src={imgTimeTrans} alt="" height="auto" width="800" />
               </Col>
               </Row>
               </p>
