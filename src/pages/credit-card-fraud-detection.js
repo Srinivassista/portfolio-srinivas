@@ -270,7 +270,7 @@ const WorkSingle = () => {
               </p>
               <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
                 <Col lg="6" className="mb-5">
-                  <img src={imgAmtTrans} alt="" width="600" height="400">
+                  <img src={imgAmtTrans} alt="" height="300" width="600" >
                 </Col>
               </Row>
               <p> •  <b><u>Merchant</u></b> : I looked at the merchants with highest rate of fraud transactions and drilled down and noticed 
