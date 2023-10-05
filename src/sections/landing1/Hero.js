@@ -63,11 +63,17 @@ const Hero = () => {
                   mb="2.5rem"
                 >
                   <p>
-                    I am Groot.
+                  I'm a data geek. Whether it's crunching numbers, manipulating data, or 
+                  creating beautiful and impactful visualizations, I absolutely love it. 
+                  It's amazing how it can guide strategic decisions and uncover hidden opportunities. 
+                  You will always find me learning new techniques and putting them in practise to solve for business problems. 
+                  When I'm passionate about something, I go all in! I get totally obsessed with learning more and 
+                  diving deep into the subject. It's exhilarating to uncover new insights and bring fresh perspectives 
+                  to the table. I'm the kind of person who automatically thinks of why a new idea or process might not work. 
+                  But don't worry, I'm not here to rain on your parade. I'm all about finding solutions and helping 
+                  overcome any obstacles in the way, which is why I am your guy if something needs to be fixed or problems need to be solved.
                   </p>
-                  <p>
-                    Currently, I'm Groot.
-                  </p>
+                 
                 </Box>
                 <Box className="d-flex flex-column align-items-center text-center">
                   <Social className="test classname" />
