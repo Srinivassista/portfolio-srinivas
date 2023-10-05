@@ -24,7 +24,8 @@ import { BiDollar } from 'react-icons/bi'
 import { FaTrophy, FaSmileBeam } from 'react-icons/fa'
 import { FcFactory } from 'react-icons/fc'
 import { IoIosRocket } from 'react-icons/io'
-import { PiMagnifyingGlassLight } from 'react-icons/pi'
+import { HiEye } from 'react-icons/hi'
+
 
 import { TbRobot, TbPlugConnected } from 'react-icons/tb'
 
@@ -143,7 +144,7 @@ const WorkSingle = () => {
                           color: #e8ad11;
                         `}
                       >
-                        <PiMagnifyingGlassLight/>
+                        <HiEye/>
                       </span>
                     </div>
                   </Col>
