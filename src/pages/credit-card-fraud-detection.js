@@ -303,14 +303,16 @@ const WorkSingle = () => {
                 a very low p-value thus establishing that the distributions of age by is_fraud were different.</p>
               <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
               <Col lg="6" className="mb-5">
-                <img src={imgAgeTrans} alt="" height="300" width="300"/>
+                <img src={imgAgeTrans} alt="" height="300" width="300" className="img-fluid w-100"/>
               </Col>
               <Col lg="6" className="mb-5">
                 <img src={imgAgeTrans2} alt="" height="300" width="300" />
               </Col>
               </Row>
-            
-              
+              </Col>
+              </Row>
+            </Col>
+          </Row>
           <Row className="justify-content-center mt-5 mb-4">
             <Col lg="9">
               <Title variant="cardLg">06. Data Modeling</Title>
