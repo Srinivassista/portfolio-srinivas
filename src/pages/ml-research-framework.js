@@ -249,6 +249,7 @@ const WorkSingle = () => {
                 I wanted to understand the impact of the following features/variables on the target variable ( is_fraud)</p>
               <p>• <b><u>Time of transaction</u></b> : There is a clear indication that most fraud happens between 9 PM to 3 AM. 
               <Row>
+              <div class="w3-container">
 
               </Row>
               <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
@@ -256,6 +257,7 @@ const WorkSingle = () => {
               <img src={imgTimeTrans} alt="" height="auto" width="800" align = "left"/>
               </Col>
               </Row>
+              </div>
               </p>
               <p>• <b><u>Day of week of transaction </u></b>: There does seem to be significant variration in fraud by day of week. 
                 An ANOVA test gave an f-statistic of 30 with a very low p-value, confirming that not all Dayofweek have 
