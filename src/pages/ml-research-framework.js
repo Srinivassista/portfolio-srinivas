@@ -25,6 +25,7 @@ import { FaTrophy, FaSmileBeam } from 'react-icons/fa'
 import { FcFactory } from 'react-icons/fc'
 import { IoIosRocket } from 'react-icons/io'
 import { HiEye } from 'react-icons/hi'
+import { BiBong } from 'react-icons/bi'
 
 
 import { TbRobot, TbPlugConnected } from 'react-icons/tb'
