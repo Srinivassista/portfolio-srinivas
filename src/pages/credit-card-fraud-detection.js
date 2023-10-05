@@ -310,7 +310,7 @@ const WorkSingle = () => {
             <Col lg="9">
               <Title variant="cardLg">06. Data Modeling</Title>
               <p>
-              1. Logistic Regression : After adding dummy variables for all selected categorical variables, and 
+              • <b><u>Logistic Regression</u></b> : After adding dummy variables for all selected categorical variables, and 
               scaling the continuous variables, I used logistic regression to predict whether a transaction is fraud or not.
               The model had a very high score of 0.995 on test data. However the AUC of the ROC curve was at 0.78.
               </p>
@@ -322,7 +322,23 @@ const WorkSingle = () => {
                     <img src={imgLRROC} alt="" height="300" width="500" />
                   </Col>
                 </Row>
-              
+                <p>
+                • The model is a decent classifier but results in high type 1 errors ( False negatives).
+                </p>
+                <p>
+              • <b><u>Random Forest Classifier </u></b> : The model had a very high score of 0.998 and also a high AUC value of 0.97 on test data.
+              </p>
+                <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
+                  <Col lg="6" className="mb-5">
+                    <img src={imgRFCM} alt="" height="300" width="300" />
+                  </Col>
+                  <Col lg="6" className="mb-5">
+                    <img src={imgRFROC} alt="" height="300" width="500" />
+                  </Col>
+                </Row>
+                <p>
+                • The model is a decent classifier but results in high type 1 errors ( False negatives).
+                </p>
             </Col>
           </Row>
           <Row className="justify-content-center mt-5 mb-4">
