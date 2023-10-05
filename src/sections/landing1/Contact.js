@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { Container, Row, Col } from 'react-bootstrap'
 import { Section, Title, Text, Span, Box } from '../../components/Core'
 import { device } from '../../utils'
-import { FaLinkedinIn, FaGithub, FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from 'react-icons/fa'
+import { FaLinkedinIn, FaGithub, FaEnvelope, FaPhoneAlt, FaMapMarkerAlt,FaKaggle } from 'react-icons/fa'
 import { Element } from 'react-scroll'
 
 const ContactCard = styled.div`

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { FaLinkedinIn, FaGithub, FaEnvelope } from 'react-icons/fa'
+import { FaLinkedinIn, FaGithub, FaEnvelope,FaKaggle } from 'react-icons/fa'
 import { color, background } from 'styled-system'
 
 const SocialContainer = styled.div`
@@ -125,7 +125,7 @@ const Social = ({ items, outline, inverse, className, ...rest }) => {
               margin-top: -5px;
             `}
           >
-            <FaGithub />
+            <FaKaggle />
           </span>
         </div>
       </a>
