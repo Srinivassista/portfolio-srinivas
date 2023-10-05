@@ -285,7 +285,7 @@ const WorkSingle = () => {
               </p>
               <p>•  <b><u>Categories</u></b> : Category of transaction had a clear impact on the probability of fraud as witnessed by the below graph. 
               </p>
-              <img src={imgCatTrans} alt="" className="img-fluid w-100"/>
+              <p><img src={imgCatTrans} alt="" className="img-fluid w-100"/></p>
               
                 
               <p> •  <b><u>Gender of customer</u></b>: The fraud ratio between genders was also observed to be different with male customers 
