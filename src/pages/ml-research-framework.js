@@ -254,7 +254,7 @@ const WorkSingle = () => {
               </Row>
               <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
               <Col lg="6" className="mb-5">
-              <img src={imgTimeTrans} alt="" height="auto" width="800" className="img-fluid w-100"/>
+              <img src={imgTimeTrans} alt="" height="auto" width="800" />
               </Col>
               </Row>
               
@@ -264,7 +264,7 @@ const WorkSingle = () => {
                 zero impact on the target variable.</p>
                 <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
               <Col lg="6" className="mb-5">
-                <img src={imgDayTrans} alt="" height="auto" width="800"  className="img-fluid w-100"/>
+                <img src={imgDayTrans} alt="" height="auto" width="800"  />
               </Col>
               </Row>
               
@@ -274,7 +274,7 @@ const WorkSingle = () => {
                 are almost 10x the non fraud ones. </p>
               <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
               <Col lg="6" className="mb-5">
-                <img src={imgAmtTrans} alt="" height="auto" width="800" className="img-fluid w-100"/>
+                <img src={imgAmtTrans} alt=""  className="img-fluid w-100"/>
               </Col>
               </Row>
               <p> •  <b><u>Merchant</u></b> : I looked at the merchants with highest rate of fraud transactions and drilled down and noticed 
@@ -293,7 +293,7 @@ const WorkSingle = () => {
                 <p>•  <b><u>Categories</u></b> : Category of transaction had a clear impact on the probability of fraud as witnessed by the below graph. </p>
                 <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
               <Col lg="6" className="mb-5">
-                <img src={imgCatTrans} alt="" height="auto" width="800" className="img-fluid w-100"/>
+                <img src={imgCatTrans} alt=""  className="img-fluid w-100"/>
               </Col>
               </Row>
                 <p> •  <b><u>Gender of customer</u></b>: The fraud ratio between genders was also observed to be different with male customers 
@@ -306,7 +306,7 @@ const WorkSingle = () => {
                 <img src={imgAgeTrans} alt="" height="auto" width="800" className="img-fluid w-100"/>
                 <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
               <Col lg="6" className="mb-5">
-                <img src={imgAgeTrans2} alt="" height="auto" width="400" className="img-fluid w-100"/>
+                <img src={imgAgeTrans2} alt="" height="auto" width="400" />
               </Col>
               </Row>
               </Col>
