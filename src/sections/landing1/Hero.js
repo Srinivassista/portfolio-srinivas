@@ -62,7 +62,7 @@ const Hero = () => {
                   `}
                   mb="2.5rem"
                 >
-                  <p>
+                <p>
                   I'm a data geek. Whether it's crunching numbers, manipulating data, or 
                   creating beautiful and impactful visualizations, I absolutely love it. 
                   It's amazing how it can guide strategic decisions and uncover hidden opportunities. 
@@ -72,7 +72,7 @@ const Hero = () => {
                   to the table. I'm the kind of person who automatically thinks of why a new idea or process might not work. 
                   But don't worry, I'm not here to rain on your parade. I'm all about finding solutions and helping 
                   overcome any obstacles in the way, which is why I am your guy if something needs to be fixed or problems need to be solved.
-                  </p>
+                </p>
                  
                 </Box>
                 <Box className="d-flex flex-column align-items-center text-center">

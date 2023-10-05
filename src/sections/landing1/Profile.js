@@ -247,6 +247,54 @@ const Profile = () => {
                     </Box>
                   </div>
                 </ProfileCard>
+                <ProfileCard className="row">
+                  <div className="row logo-position-row w-100">
+                    <div className="col logo">
+                      <img
+                        src={!gContext.theme.bodyDark ? honestLogo : honestLogoDark}
+                        alt=""
+                        className="w-100"
+                      />
+                    </div>
+                    <div className="col p-0">
+                      <div className="row">
+                        <div className="col-12 col-xl-7 profile-card-heading">
+                          <Title variant="cardSm" className="profile-card-title">
+                            Data Analyst
+                          </Title>
+                        </div>
+                        <div className="col-12 col-xl-5 d-none d-xl-block profile-card-date">
+                          <p>{/*Somewhere | */}Aug 2012 – Aug 2013</p>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-12 profile-card-heading">
+                          <Text variant="small" color="text" className="profile-card-organization">
+                            <span className="emphasize-text">Fractal Analytics</span> : a prominent provider of Artificial Intelligence to Fortune 500® companies.
+                          </Text>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-12 d-xl-none profile-card-heading">
+                          <p>{/*Somewhere | */}Aug 2012 – Aug 2013</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row description-row w-100">
+                    <div className="col logo-bottom"></div>
+                    <Box className="col description-col" color="text">
+                      <p>
+                        • Created a Bayesian network of features (Size type, color, promotion) to understand their impact on sales of 
+                        diapers across multiple countries
+                                           
+                      </p>
+                      <p>
+                        • Combined data from different sources ( Excel, SQL database), manipulated data in R and used Tableau for creating compelling visuals
+                      </p>
+                    </Box>
+                  </div>
+                </ProfileCard>
               </Board>
             </Row>
           </Element>
