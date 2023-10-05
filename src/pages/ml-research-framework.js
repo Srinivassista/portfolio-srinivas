@@ -255,11 +255,21 @@ const WorkSingle = () => {
               <p>• Day of week of transaction : There does seem to be significant variration in fraud by day of week. 
                 An ANOVA test gave an f-statistic of 30 with a very low p-value, confirming that not all Dayofweek have 
                 zero impact on the target variable.</p>
+                <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
+              <Col lg="6" className="mb-5">
+                <img src={imgDayTrans} alt="" className="img-fluid w-100" />
+              </Col>
+              </Row>
               
               <p>• Amount of transaction : A boxplot of amount vs is_fraud showed that transactions which were not fraud 
                 had a very low mean and lots of outliers whereas fraud transactions seem to have very little variance and 
                 are usually higher in value that non-fraudulent transactions. The mean and medians for fraud transactions 
                 are almost 10x the non fraud ones. </p>
+                <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
+              <Col lg="6" className="mb-5">
+                <img src={imgAmtTrans} alt="" className="img-fluid w-100" />
+              </Col>
+              </Row>
               <p> • Merchant : I looked at the merchants with highest rate of fraud transactions and drilled down and noticed 
                 that they all shared a certain Category of transaction. To explore further I created a list of outlier 
                 merchants with high fraud levels and compared the fraud distribution across these merchants by category 
@@ -274,11 +284,26 @@ const WorkSingle = () => {
                 very high fraud rate were also not in the high fraud rate States. I did not have a strong indication that this 
                 feature should be part of the model so I decided to make the model without city first.</p>
                 <p>• Categories : Category of transaction had a clear impact on the probability of fraud as witnessed by the below graph. </p>
+                <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
+              <Col lg="6" className="mb-5">
+                <img src={imgCatTrans} alt="" className="img-fluid w-100" />
+              </Col>
+              </Row>
                 <p> • Gender of customer: The fraud ratio between genders was also observed to be different with male customers 
                 getting frauded 0.64% compared to 0.53% for females. </p>
                 <p>• Age of customer : There was a difference between fraud rates based on the customer age as seen from the 
                 boxplot below. This was confirmed statitically by running a t-test which gave a t-statistic of 14.14 with 
                 a very low p-value thus establishing that the distributions of age by is_fraud were different.</p>
+                <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
+              <Col lg="6" className="mb-5">
+                <img src={imgAgeTrans} alt="" className="img-fluid w-100" />
+                <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
+              <Col lg="6" className="mb-5">
+                <img src={imgAgeTrans2} alt="" className="img-fluid w-100" />
+              </Col>
+              </Row>
+              </Col>
+              </Row>
             </Col>
           </Row>
           <Row className="justify-content-center mt-5 mb-4">
