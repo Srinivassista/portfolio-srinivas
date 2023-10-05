@@ -285,7 +285,7 @@ const WorkSingle = () => {
               </p>
               <p>•  <b><u>Categories</u></b> : Category of transaction had a clear impact on the probability of fraud as witnessed by the below graph. 
               </p>
-              
+              <img src={imgCatTrans} alt="" className="img-fluid w-100"/>
               
                 
               <p> •  <b><u>Gender of customer</u></b>: The fraud ratio between genders was also observed to be different with male customers 
@@ -310,8 +310,19 @@ const WorkSingle = () => {
             <Col lg="9">
               <Title variant="cardLg">06. Data Modeling</Title>
               <p>
-              Enter details
+              1. Logistic Regression : After adding dummy variables for all selected categorical variables, and 
+              scaling the continuous variables, I used logistic regression to predict whether a transaction is fraud or not.
+              The model had a very high score of 0.995 on test data. However the AUC of the ROC curve was at 0.78.
               </p>
+                <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
+                  <Col lg="6" className="mb-5">
+                    <img src={imgLRCM} alt="" height="300" width="300" />
+                  </Col>
+                  <Col lg="6" className="mb-5">
+                    <img src={imgLRROC} alt="" height="300" width="500" />
+                  </Col>
+                </Row>
+              
             </Col>
           </Row>
           <Row className="justify-content-center mt-5 mb-4">
