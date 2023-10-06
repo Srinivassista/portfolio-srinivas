@@ -12,13 +12,14 @@ import pttgcLogo from '../../assets/img/profile/pttgc.png'
 import chulaLogo from '../../assets/img/profile/chula.png'
 import fabLogo from '../../assets/img/profile/fabelio.jpg'
 import stepLogo from '../../assets/img/profile/stepfix.png'
+import rmLogo from '../../assets/img/profile/rm.png'
 
 import honestLogoDark from '../../assets/img/profile/honest-dark.png'
 import chevronLogoDark from '../../assets/img/profile/chevron-dark.png'
 import pttgcLogoDark from '../../assets/img/profile/pttgc-dark.png'
 import chulaLogoDark from '../../assets/img/profile/chula-dark.png'
 import fabLogoDark from '../../assets/img/profile/fabelio.jpg'
-import stepLogoDark from '../../assets/img/profile/stepfix.png'
+import rmLogoDark from '../../assets/img/profile/rm.png'
 
 import GlobalContext from '../../context/GlobalContext'
 import { device } from '../../utils'
@@ -153,6 +154,50 @@ const Profile = () => {
                     <Title variant="cardLg">Relevant Experience</Title>
                   </div>
                 </ProfileCard>
+                <ProfileCard className="row">
+                  <div className="row logo-position-row w-100">
+                    <div className="col logo">
+                      <img
+                        src={!gContext.theme.bodyDark ? rmLogo : rmLogoDark}
+                        alt=""
+                        className="w-100"
+                      />
+                    </div>
+                    <div className="col p-0">
+                      <div className="row">
+                        <div className="col-12 col-xl-7 profile-card-heading">
+                          <Title variant="cardSm" className="profile-card-title">
+                          Business Development
+                          </Title>
+                        </div>
+                        <div className="col-12 col-xl-5 d-none d-xl-block profile-card-date">
+                          <p>{/*Somewhere | */}Jan 2021 – May 2022</p>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-12 profile-card-heading">
+                          <Text variant="small" color="text" className="profile-card-organization">
+                            <span className="emphasize-text">riskmethods</span> : An enterprise SaaS solution for supply chain risk management.
+                          </Text>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-12 d-xl-none profile-card-heading">
+                          <p>{/*Somewhere | */}Jan 2021 – May 2022</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row description-row w-100">
+                    <div className="col logo-bottom"></div>
+                    <Box className="col description-col" color="text">
+                      <p>
+                        Write the projects here 
+                      </p>
+                    </Box>
+                  </div>
+                </ProfileCard>
+                <hr />
                 <ProfileCard className="row">
                   <div className="row logo-position-row w-100">
                     <div className="col logo">
