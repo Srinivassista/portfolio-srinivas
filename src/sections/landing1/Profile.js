@@ -10,11 +10,13 @@ import honestLogo from '../../assets/img/profile/honest.png'
 import chevronLogo from '../../assets/img/profile/chevron.png'
 import pttgcLogo from '../../assets/img/profile/pttgc.png'
 import chulaLogo from '../../assets/img/profile/chula.png'
+import fabLogo from '../../assets/img/profile/fabelio.jpg'
 
 import honestLogoDark from '../../assets/img/profile/honest-dark.png'
 import chevronLogoDark from '../../assets/img/profile/chevron-dark.png'
 import pttgcLogoDark from '../../assets/img/profile/pttgc-dark.png'
 import chulaLogoDark from '../../assets/img/profile/chula-dark.png'
+import fabLogoDark from '../../assets/img/profile/fabelio.jpg'
 
 import GlobalContext from '../../context/GlobalContext'
 import { device } from '../../utils'
@@ -153,7 +155,7 @@ const Profile = () => {
                   <div className="row logo-position-row w-100">
                     <div className="col logo">
                       <img
-                        src={!gContext.theme.bodyDark ? honestLogo : honestLogoDark}
+                        src={!gContext.theme.bodyDark ? fabLogo : fabLogoDark}
                         alt=""
                         className="w-100"
                       />
@@ -162,23 +164,23 @@ const Profile = () => {
                       <div className="row">
                         <div className="col-12 col-xl-7 profile-card-heading">
                           <Title variant="cardSm" className="profile-card-title">
-                            Data Analyst
+                          Co-founder and Director of Operations
                           </Title>
                         </div>
                         <div className="col-12 col-xl-5 d-none d-xl-block profile-card-date">
-                          <p>{/*Somewhere | */}Aug 2012 – Aug 2013</p>
+                          <p>{/*Somewhere | */}Mar 2015 – Jun 2019</p>
                         </div>
                       </div>
                       <div className="row">
                         <div className="col-12 profile-card-heading">
                           <Text variant="small" color="text" className="profile-card-organization">
-                            <span className="emphasize-text">Fractal Analytics</span> : a prominent provider of Artificial Intelligence to Fortune 500® companies.
+                            <span className="emphasize-text">Fabelio</span> : Leading home furnishing e-commerce in Indonesia.
                           </Text>
                         </div>
                       </div>
                       <div className="row">
                         <div className="col-12 d-xl-none profile-card-heading">
-                          <p>{/*Somewhere | */}Aug 2012 – Aug 2013</p>
+                          <p>{/*Somewhere | */}Mar 2015 – Jun 2019</p>
                         </div>
                       </div>
                     </div>
@@ -187,12 +189,7 @@ const Profile = () => {
                     <div className="col logo-bottom"></div>
                     <Box className="col description-col" color="text">
                       <p>
-                        • Created a Bayesian network of features (Size type, color, promotion) to understand their impact on sales of 
-                        diapers across multiple countries
-                                           
-                      </p>
-                      <p>
-                        • Combined data from different sources ( Excel, SQL database), manipulated data in R and used Tableau for creating compelling visuals
+                        Write the projects here 
                       </p>
                     </Box>
                   </div>
