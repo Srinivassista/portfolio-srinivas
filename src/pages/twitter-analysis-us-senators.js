@@ -291,7 +291,7 @@ const WorkSingle = () => {
               <hr>
               </hr>
               <table border="1" style="width:50%">
-                <caption style="text-align: center; ">WHAT?</caption> 
+                 
                 <Row>
                   <Col> Hypothesis
                   </Col>
