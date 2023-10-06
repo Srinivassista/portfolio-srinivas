@@ -290,11 +290,12 @@ const WorkSingle = () => {
                 Based on the initial exploration, I have the following hypotheses
               <hr>
               </hr>
-              <table border="1"> 
-                <Row border="1">
-                  <Col border="1"> Hypothesis
+              <table border="1" style="width:50%">
+                <caption style="text-align: center; ">WHAT?</caption> 
+                <Row>
+                  <Col> Hypothesis
                   </Col>
-                  <Col>test
+                  <Col>Test
                   </Col>
                 </Row>
                 <Row>
