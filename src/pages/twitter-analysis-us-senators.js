@@ -268,42 +268,40 @@ const WorkSingle = () => {
           <Row className="justify-content-center mt-5 mb-4">
             <Col lg="9">
               <Title variant="cardLg">04. Analysis Techniques Used</Title>
-              <p> • Student t-test
+              <p> • Hypothesis testing with Student-t-test (scipy)
               </p>
-              <p> • ANOVA tests
+              <p> • Unsupervised machine learning with K-means clustering (sklearn)
               </p>
-              <p> • Logistic regression classifier
+              <p> • Network graphs (networkx)
               </p>
-              <p> • Random Forest classifier
-              </p>
+              
             </Col>
           </Row>
           <Row className="justify-content-center mt-5 mb-4">
             <Col lg="9">
               <Title variant="cardLg">05. Exploratory Data Analysis</Title>
-                <p> The data is available in the form of a csv which was read into Python using pandas.
-                    There were no missing values in the data and the data could be used as it was for analysis.
-                    Some variables were created from existing variables
-                  <p>• Transaction time  
+                <p> The data is in the form of 2 JSONs
+                  <p>Users.json : list of all relevant twitter users</p>
+                  <p>Tweets.json : list of all tweets from the above users</p>
+                  The .json files were read into Python as pandas objects 
+                  using read_json with defined chunksize because they were large (2GB). 
+                  The pandas dataframes were then read back to a csv format to be able to load data easier 
+                  in the future.
+                  <p>• Checked for missing values in both tables and columns 
+                    (all missing data/non valuable data/duplicate info) 
                   </p>
-                  <p>• Transaction day of week
+                  <p>• New features created from existing columns
                   </p>
-                  <p>• Transaction category type
+                  <p>• Changed columns type to extract information
+                    <p>Tweets – ‘source’ from html layout to string using BeautifulSoup, extracted 
+                      hashtags used, user ids mentioned in tweets from dict type column</p>
                   </p>
-                  <p>• Customer age from date of birth
+                  <p>• Removed rows in tweets data not corresponding to users in users table
                   </p>
               </p>
               
-              <p>The data consisted of 1296675 rows and 23 columns in the training dataset spread across 730 days.
-                There are 989 unique customers whose transactions are in the data. 
-                I wanted to understand the impact of the following features/variables on the target variable ( is_fraud)</p>
-              <p>• <b><u>Time of transaction</u></b> : There is a clear indication that most fraud happens between 9 PM to 3 AM. 
-              
-              
-              <img src={imgTimeTrans} alt="" height="auto" width="800" />
                
               
-              </p>
               <p>• <b><u>Day of week of transaction </u></b>: There does seem to be significant variration in fraud by day of week. 
                 An ANOVA test gave an f-statistic of 30 with a very low p-value, confirming that not all Dayofweek have 
                 zero impact on the target variable.
