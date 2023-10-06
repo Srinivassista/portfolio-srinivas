@@ -285,40 +285,34 @@ const WorkSingle = () => {
           
           <Row className="justify-content-center mt-5 mb-4">
             <Col lg="9">
-              <Title variant="cardLg">06. Data Modeling</Title>
-              <p>
-              • <b><u>Logistic Regression</u></b> : After adding dummy variables for all selected categorical variables, and 
-              scaling the continuous variables, I used logistic regression to predict whether a transaction is fraud or not.
-              The model had a very high score of 0.995 on test data. However the AUC of the ROC curve was at 0.78.
-              </p>
-                <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
-                  <Col lg="6" className="mb-5">
-                    <img src={imgLRCM} alt="" height="300" width="300" />
+              <Title variant="cardLg">06. Hypotheses</Title>
+              
+                Based on the initial exploration, I have the following hypotheses
+              <table> 
+                <Row>
+                  <Col> Hypothesis A : Presidential election years see an increase in senator interaction 
+                activity due to party campaigns.</Col>
+                  <Col>The % of tweets with interactions with other senators will be higher in 2012 and 2016 compared to other years as these are 
+                presidential campaign years and I expect there to be strong Twitter campaigns
                   </Col>
-                  <Col lg="6" className="mb-5">
-                    <img src={imgLRROC} alt="" height="300" width="500" />
-                  </Col>
-                </Row>
-                <p>
-                • The model is a decent classifier but results in high type 1 errors ( False negatives).
-                </p>
-                <p>
-              • <b><u>Random Forest Classifier </u></b> : The model had a very high score of 0.998 and also a high AUC value of 0.97 on test data.
-              </p>
-                <Row className="justify-content-center align-items-center d-flex mt-5 mb-4">
-                  <Col lg="6" className="mb-5">
-                    <img src={imgRFCM} alt="" height="300" width="300" />
-                  </Col>
-                  <Col lg="6" className="mb-5">
-                    <img src={imgRFROC} alt="" height="300" width="500" />
+                </Row> 
+                
+                <Row> 
+                  <Col> Hypothesis B: There is a section of users that have a strong interaction with each 
+                other for 2016 presidential campaign.
+                  </Col> 
+                  <Col>There is a connected subgraph within the graph 
+                of all users and interactions(within users) for 2016
                   </Col>
                 </Row>
-                <p>
-                • The features with the highest importance were
-                 <p> - Transaction Amount</p>
-                 <p> - Age of customer</p>
-                 <p> - Hour of day of transaction</p>
-                </p>
+                <Row>
+                  <Col>Hypothesis C: Users had different roles in campaign amplification during 2016 
+                presidential campaign
+                  </Col> 
+                  <Col>User clustering will yield clusters with well defined roles
+                  </Col>
+                </Row>
+              </table>
             </Col>
           </Row>
           <Row className="justify-content-center mt-5 mb-4">
