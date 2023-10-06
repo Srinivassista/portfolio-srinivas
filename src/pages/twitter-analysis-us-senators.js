@@ -288,7 +288,9 @@ const WorkSingle = () => {
               <Title variant="cardLg">06. Hypotheses</Title>
               
                 Based on the initial exploration, I have the following hypotheses
-              <table> 
+              <hr>
+              </hr>
+              <table border="1"> 
                 <Row>
                   <Col> Hypothesis A : Presidential election years see an increase in senator interaction 
                 activity due to party campaigns.</Col>
