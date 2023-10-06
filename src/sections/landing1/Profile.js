@@ -562,7 +562,7 @@ const Profile = () => {
                 <ProfileCard className="row">
                   <div className="col padding-dynamic">
                     <p>
-                    <a href="https://github.dev/Srinivassista/portfolio-srinivas/blob/de4725c07ac2907221928e9856909d16674cbdb2/src/assets/cert/Data_Analyst.pdf" target="_blank">• Data Analyst Professional Certificate | IBM (Coursera)</a>
+                    <a href="https://github.com/Srinivassista/portfolio-srinivas/blob/f3e04a0aaaab3354c38dff71edc5f279b80b652a/src/assets/cert/Data_Analyst.pdf" target="_blank">• Data Analyst Professional Certificate | IBM (Coursera)</a>
                     </p>
                     <p>
                     • SQL Basics for Data Science | UC Davis (Coursera)
