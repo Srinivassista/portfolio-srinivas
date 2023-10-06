@@ -289,7 +289,7 @@ const WorkSingle = () => {
               
                 Based on the initial exploration, I have the following hypotheses
               
-              <table border="1" border-spacing="10px" border-collapse="separate">
+              <table border="1" border-spacing="10px" border-collapse="separate" padding="15px">
                  
                 <tr>
                   <th> Hypothesis
