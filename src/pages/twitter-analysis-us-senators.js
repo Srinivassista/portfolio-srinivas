@@ -327,11 +327,16 @@ const WorkSingle = () => {
             <Col lg="9">
               <Title variant="cardLg">07. Findings and further research</Title>
               <p>
-              The transaction amount, customer age and the time of day when the transaction occurred are very accurate 
-              predictors of whether a transaction is a fraud. I believe that there can still be a slight improvement in 
-              the model to reduce Type 1 error ( cases where there is a fraud but we predict there is not). For this we 
-              can either focus on hyperparameter tuning in the Random Forest classifier or try other classification 
-              models like Neural Networks.
+              As Lobbyists4America is looking to influence legislation, they need to have influence 
+              with the top 2 clusters of senators </p>
+              <p>– the Heavy Influencers and Leading Influencers</p>
+              <p>As there is a strong network of senators that retweet,quote and reply to Donald Trump, 
+                it might be useful to engage them on topics they speak about to get amplified</p>
+              <p>There are some key topics that need to be analysed further
+                <p>Obamacare being a top topic for many years, the sentiment analysis of this keyword 
+                  within the highly interactive senators group</p>
+                <p>Analysing some of the days with extremely high number of tweets and the topics 
+                  to understand any minor campaigns and who influences them most</p>
               </p>
             </Col>
           </Row>
