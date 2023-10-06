@@ -292,35 +292,35 @@ const WorkSingle = () => {
               </hr>
               <table border="1">
                  
-                <Row>
-                  <Col> Hypothesis
-                  </Col>
-                  <Col>Test
-                  </Col>
-                </Row>
-                <Row>
-                  <Col> Hypothesis A : Presidential election years see an increase in senator interaction 
-                activity due to party campaigns.</Col>
-                  <Col>The % of tweets with interactions with other senators will be higher in 2012 and 2016 compared to other years as these are 
+                <tr>
+                  <th> Hypothesis
+                  </th>
+                  <th>Test
+                  </th>
+                </tr>
+                <tr>
+                  <td> Hypothesis A : Presidential election years see an increase in senator interaction 
+                activity due to party campaigns.</td>
+                  <td>The % of tweets with interactions with other senators will be higher in 2012 and 2016 compared to other years as these are 
                 presidential campaign years and I expect there to be strong Twitter campaigns
-                  </Col>
-                </Row> 
+                  </td>
+                </tr> 
                 
-                <Row> 
-                  <Col> Hypothesis B: There is a section of users that have a strong interaction with each 
+                <tr> 
+                  <td> Hypothesis B: There is a section of users that have a strong interaction with each 
                 other for 2016 presidential campaign.
-                  </Col> 
-                  <Col>There is a connected subgraph within the graph 
+                  </td> 
+                  <td>There is a connected subgraph within the graph 
                 of all users and interactions(within users) for 2016
-                  </Col>
-                </Row>
-                <Row>
-                  <Col>Hypothesis C: Users had different roles in campaign amplification during 2016 
+                  </td>
+                </tr>
+                <tr>
+                  <td>Hypothesis C: Users had different roles in campaign amplification during 2016 
                 presidential campaign
-                  </Col> 
-                  <Col>User clustering will yield clusters with well defined roles
-                  </Col>
-                </Row>
+                  </td> 
+                  <td>User clustering will yield clusters with well defined roles
+                  </td>
+                </tr>
               </table>
             </Col>
           </Row>
