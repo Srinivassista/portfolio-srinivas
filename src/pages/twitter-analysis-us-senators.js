@@ -52,9 +52,9 @@ const WorkSingle = () => {
         <Container>
           <Row className="justify-content-center">
             <Col lg="9">
-              <Text variant="tag">Machine Learning</Text>
+              <Text variant="tag">Data Analysis</Text>
               <Title variant="secSm" className="my-4">
-                Credit Card Fraud Detection
+                Twitter Analysis of US senators ( 2008-2017)
               </Title>
             </Col>
           </Row>
@@ -62,8 +62,8 @@ const WorkSingle = () => {
             <Col lg="9">
               <Title variant="cardLg">01. Learning Objective</Title>
               <p>
-              <p>1. Get experience in analysing credit card fraud</p>
-              <p>2. Explore simple classification models in Python</p>
+              <p>1. Get experience in working with social media data</p>
+              <p>2. Explore simple network graphs and analysis in Python</p>
               </p>
             </Col>
           </Row>
@@ -71,8 +71,11 @@ const WorkSingle = () => {
             <Col lg="9">
               <Title variant="cardLg">02. Analysis Objective</Title>
               <p>
-              Bank ABC wants to be able to predict whether a particular card usage is fraudulent based on many features.
-              This will help them to better inform the customer or take preventive actions in cases where a transaction is predicted to be fraudulent.
+              Lobbyists4America is a company that seeks to provide insights to their customers aiming to affect legislation within the US. 
+              The client wants to analyze the 2008-2017 congressional tweets in order to understand
+                <p>1. Key topics</p>
+                <p> 2. Key members</p>
+                <p> 3. Relationships within Congress</p>
               </p>
             </Col>
           </Row>
@@ -136,6 +139,31 @@ const WorkSingle = () => {
               }
             `}
           >
+            <Col lg="4" className="achievements-card">
+              <Col className="col-12 h-100 achievements-card2">
+                <Row>
+                  <Col className="col-12 d-flex achievements-icon" lg="12" sm="3">
+                    <div className="achievements-icon2">
+                      <span
+                        css={`
+                          color: #e8ad11;
+                        `}
+                      >
+                        <HiEye/>
+                      </span>
+                    </div>
+                  </Col>
+                  <Col className="col-12 achievements-desc" lg="12" sm="9">
+                    <Title variant="cardSm" className="mt-3">
+                      Exploratory Analysis
+                    </Title>
+                    <Text variant="small">
+                    Initial exploratory analysis to find relationship between target variable and features
+                    </Text>
+                  </Col>
+                </Row>
+              </Col>
+            </Col>
             <Col lg="4" className="achievements-card">
               <Col className="col-12 h-100 achievements-card2">
                 <Row>

@@ -10,7 +10,7 @@ export const works = [
       `Data Analysis`,
       `Machine Learning`
     ],
-    thumbnail: imgT1,
+    thumbnail: imgT2,
     link: '/credit-card-fraud-detection',
     description: (
       <>
@@ -35,7 +35,7 @@ export const works = [
       'wordcloud'
       
     ],
-    thumbnail: imgT2,
+    thumbnail: imgT1,
     link: '/twitter-analysis-us-senators',
     description: (
       <p>
