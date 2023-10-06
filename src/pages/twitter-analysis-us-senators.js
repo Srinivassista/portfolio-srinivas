@@ -290,7 +290,7 @@ const WorkSingle = () => {
                 Based on the initial exploration, I have the following hypotheses
               <hr>
               </hr>
-              <table border="1" style="width:50%">
+              <table border="1">
                  
                 <Row>
                   <Col> Hypothesis
