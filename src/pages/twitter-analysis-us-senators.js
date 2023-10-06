@@ -291,6 +291,12 @@ const WorkSingle = () => {
               <hr>
               </hr>
               <table border="1"> 
+                <Row border="1">
+                  <Col border="1"> Hypothesis
+                  </Col>
+                  <Col>test
+                  </Col>
+                </Row>
                 <Row>
                   <Col> Hypothesis A : Presidential election years see an increase in senator interaction 
                 activity due to party campaigns.</Col>
