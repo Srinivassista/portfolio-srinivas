@@ -158,7 +158,7 @@ const WorkSingle = () => {
                       Exploratory Analysis
                     </Title>
                     <Text variant="small">
-                    Initial exploratory analysis to find relationship between target variable and features
+                    Initial exploratory data analysis of senators(users) data and tweets data
                     </Text>
                   </Col>
                 </Row>
@@ -180,10 +180,10 @@ const WorkSingle = () => {
                   </Col>
                   <Col className="col-12 achievements-desc" lg="12" sm="9">
                     <Title variant="cardSm" className="mt-3">
-                      Exploratory Analysis
+                      Data cleaning
                     </Title>
                     <Text variant="small">
-                    Initial exploratory analysis to find relationship between target variable and features
+                    Data cleaning and missing value imputation
                     </Text>
                   </Col>
                 </Row>
@@ -205,10 +205,10 @@ const WorkSingle = () => {
                   </Col>
                   <Col className="col-12 achievements-desc" lg="12" sm="9">
                     <Title variant="cardSm" className="mt-3">
-                      Data Cleaning and Feature Engineering
+                      Feature Engineering
                     </Title>
                     <Text variant="small">
-                      Clean available data, impute missing values and create derived features
+                    Creating features and dropping features not required for analysis
                     </Text>
                   </Col>
                 </Row>
@@ -230,10 +230,35 @@ const WorkSingle = () => {
                   </Col>
                   <Col className="col-12 achievements-desc" lg="12" sm="9">
                     <Title variant="cardSm" className="mt-3">
-                      Classification ML models
+                      Hypothesis testing
                     </Title>
                     <Text variant="small">
-                    Creating classification models for prediction of fraud and compare model performances.
+                    Creating hypothesis based off of exploration and testing hypotheses
+                    </Text>
+                  </Col>
+                </Row>
+              </Col>
+            </Col>
+            <Col lg="4" className="achievements-card">
+              <Col className="col-12 h-100 achievements-card2">
+                <Row>
+                  <Col className="col-12 d-flex achievements-icon" lg="12" sm="3">
+                    <div className="achievements-icon2">
+                      <span
+                        css={`
+                          color: #e4a8ae;
+                        `}
+                      >
+                        <FaProjectDiagram />
+                      </span>
+                    </div>
+                  </Col>
+                  <Col className="col-12 achievements-desc" lg="12" sm="9">
+                    <Title variant="cardSm" className="mt-3">
+                      Conclusion
+                    </Title>
+                    <Text variant="small">
+                    Presentation of conclusions, findings and potential next steps
                     </Text>
                   </Col>
                 </Row>
