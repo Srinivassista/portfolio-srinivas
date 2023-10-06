@@ -539,7 +539,7 @@ const Profile = () => {
                     </p>
                     <p>
                     
-                      • Languages : <code>English (Fluent)</code>,<code>Dutch (B2)</code>,{' '}
+                      • Languages : English (Fluent),Dutch (B2),{' '}
                     </p>
                   </div>
                 </ProfileCard>
@@ -562,7 +562,7 @@ const Profile = () => {
                 <ProfileCard className="row">
                   <div className="col padding-dynamic">
                     <p>
-                    • Data Analyst Professional Certificate | IBM (Coursera)
+                    <a href="www.google.com">• Data Analyst Professional Certificate | IBM (Coursera)</a>
                     </p>
                     <p>
                     • SQL Basics for Data Science | UC Davis (Coursera)
