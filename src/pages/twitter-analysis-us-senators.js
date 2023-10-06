@@ -288,9 +288,8 @@ const WorkSingle = () => {
               <Title variant="cardLg">06. Hypotheses</Title>
               
                 Based on the initial exploration, I have the following hypotheses
-              <hr>
-              </hr>
-              <table border="1">
+              
+              <table border="1" border-spacing="10px" border-collapse="separate">
                  
                 <tr>
                   <th> Hypothesis
