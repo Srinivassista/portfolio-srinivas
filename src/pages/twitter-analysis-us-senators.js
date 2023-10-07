@@ -284,7 +284,8 @@ const WorkSingle = () => {
                   </br>
                   <b><u>Users data</u></b> : 
                     <p>&emsp; • There are 548 senators that are part of this analysis</p>
-                    <p>&emsp; • Most senators have very low twitter following (median 16k) as well as friends (median 800) with a few outliers</p>
+                    <p>&emsp; • Most senators have very low twitter following (median 16k) as well as friends (median 800) with a few outliers.
+                      Most senators have tweeted less than 3k times (median is 2.7k) over 2008-2017</p>
                     <p> <img src={imgSenFol} alt="" className="img-fluid w-100"/></p>
                     <p><img src={imgSenFriend} alt="" className="img-fluid w-100"/></p>
                     <p><img src={imgSenTweet} alt="" className="img-fluid w-100"/></p>
@@ -296,8 +297,7 @@ const WorkSingle = () => {
                       
                       </Row>
                       
-                    <p>&emsp;• Most senators have tweeted less than 3k times (median is 2.7k) over 2008-2017</p>
-                    <p> Insert image here</p>
+                  
                 </p>
                 <br>
                 </br>
