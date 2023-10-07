@@ -8,7 +8,10 @@ import { Section, Button, Title, Text, Box } from '../components/Core'
 import Contact from '../sections/landing1/Contact'
 import imgSenFol from '../assets/img/portfolio/senfollowers.png'
 import imgFolCount from '../assets/img/portfolio/folcount.png'
-import imgFrndCount from '../assets/img/portfolio/senfriends.png'
+import imgSenFriend from '../assets/img/portfolio/senfriends.png'
+import imgFrndCount from '../assets/img/portfolio/frcount.png'
+import imgSenTweet from '../assets/img/portfolio/sentweets.png'
+import imgTweetCount from '../assets/img/portfolio/twcount.png'
 import { device, breakpoints } from '../utils'
 
 
@@ -283,12 +286,13 @@ const WorkSingle = () => {
                     <p>&emsp; • There are 548 senators that are part of this analysis</p>
                     <p>&emsp; • Most senators have very low twitter following (median 16k) as well as friends (median 800) with a few outliers</p>
                     <p> <img src={imgSenFol} alt="" className="img-fluid w-100"/></p>
-                    <p><img src={imgFrndCount} alt="" className="img-fluid w-100"/></p>
+                    <p><img src={imgSenFriend} alt="" className="img-fluid w-100"/></p>
+                    <p><img src={imgSenTweet} alt="" className="img-fluid w-100"/></p>
                     <p>&emsp;• Top 5 in terms of following and friends and number of tweets below :</p>
                       <Row>
                           <Col><p><img src={imgFolCount} alt="" className="img-fluid w-100"/></p></Col>
-                          <Col><p><img src={imgFolCount} alt="" className="img-fluid w-100"/></p></Col>
-                          <Col><p><img src={imgFolCount} alt="" className="img-fluid w-100"/></p></Col>
+                          <Col><p><img src={imgFrndCount} alt="" className="img-fluid w-100"/></p></Col>
+                          <Col><p><img src={imgTweetCount} alt="" className="img-fluid w-100"/></p></Col>
                       
                       </Row>
                       
