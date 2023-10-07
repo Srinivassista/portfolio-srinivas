@@ -294,11 +294,18 @@ const WorkSingle = () => {
                     <p>&emsp;• 2016 tweeting looks like all time high but 2017 data is only till 6th June so extrapolating to full year would have resulted in 514k senator tweets</p>
                     <p>&emsp;• There are some outlier days with crazy activity in tweeting that might be worth investigating</p>
                     <p> Inset 2 images here </p>
-                    <p>&emsp; Retweeting/Mentioning and quoting by senators</p>
-                    <p> &emsp;&ensp; • The retweeting/quoting starting from 2015 and has kept increasing. The ratio of retweets over total tweets is also increasing YoY.</p>
-                    <p>&emsp;&ensp; • Mentioning has grown from 20% in 2010 to more than 50% of all tweets made by senators having mentions</p>
-                    <p>&emsp;&ensp; • The overall interaction on twitter by senators is on the up with 55% of all tweets in 2016 having either mentions, quotes are retweeted and this number is still increasing in 2017.</p>
+                    <p>&emsp; • Retweeting/Mentioning and quoting by senators</p>
+                    <p> &emsp;&emsp; • The retweeting/quoting starting from 2015 and has kept increasing. The ratio of retweets over total tweets is also increasing YoY.</p>
+                    <p>&emsp;&emsp; • Mentioning has grown from 20% in 2010 to more than 50% of all tweets made by senators having mentions</p>
+                    <p>&emsp;&emsp; • The overall interaction on twitter by senators is on the up with 55% of all tweets in 2016 having either mentions, quotes are retweeted and this number is still increasing in 2017.</p>
                     <p>&emsp; • Use of hashtags by senators</p>
+                    <p>&emsp; &emsp; • 2014 and 2015 had more than 50% of tweets with hashtags, however this % is dropping since 2016</p>
+                    <p>&emsp; • Relevant topics by year</p>
+                    <p>&emsp; &emsp; • TCOT (Top Conservatives of Twitter) was used a lot till 2014</p>
+                    <p>&emsp; &emsp; • 4jobs was a relevant hashtag in 2011 and 2012</p>
+                    <p>&emsp; &emsp; • 2015 and 2016 had State of the Union being discussed a lot (#SOTU). Even though this is annual, only these 2 years have seen it being a big focus</p>
+                    <p>&emsp; &emsp; • Obamacare has been a top topic since 2012 to 2017 constantly</p>
+                    <p>&emsp; &emsp; • Zika in 2016 and Trumpcare in 2017 were highly discussed topics</p>
 
 
 
@@ -355,7 +362,31 @@ const WorkSingle = () => {
           </Row>
           <Row className="justify-content-center mt-5 mb-4">
             <Col lg="9">
-              <Title variant="cardLg">07. Findings and further research</Title>
+              <Title variant="cardLg">07. Hypothesis testing and results</Title>
+              <p><b><u>Hypothesis A</u></b></p>
+              <p>&emsp; • The % of tweets with senator mentions is increasing year on year and the rate of increase in 2012 and 2016 is actually not more 
+                than the previous years as seen by the slope of the line graph</p>
+                <p>&emsp; • A t-test on the distribution of senator interaction for (2012vs 2011) has a t-statistic of -27.6 with a p value  less than 0.05 and for 
+                  (2016 vs 2015) had a t-statistic 
+                of -20.05 with a p-value less than 0.05, indicating that infact there is a statistically significant decrease in senator 
+                interaction during the Presidential election years.</p>
+              <p><b><u>Hypothesis B</u></b></p>
+                <p>&emsp; • There is a connected subgraph within the network graph of all senators and their interactions with Donald Trump being the node with highest</p>
+                <p>&emsp; • All other users have much less interaction with each other as seen by the degree histogram</p>
+              <p><b><u>Hypothesis C</u></b></p>
+                <p>&emsp; • There are 3 clusters within senators based on # of followers, # of tweets and Interaction with other senators</p>
+                  <p>&emsp; &emsp;• HEAVY INFLUENCER : Donald Trump’s very high following puts him as his own cluster</p>
+                  <p>&emsp; &emsp;• LEADING INFLUENCERS (in yellow) : A set of 5 senators with medium high following and high interaction ( same mean as Trump), but lower avg tweets than Trump</p>
+                  <p>&emsp; &emsp;• The rest are users with low followers, low avg tweets and low interactions – PASSIVES (in purple)</p>
+              <p><b><u>Conclusions from Hypothesis testing</u></b></p>
+                <p>&emsp; • There is no evidence of higher interaction between senators during presidential election years</p>
+                <p>&emsp; • There is a group of senators mainly connected via Trump that interacts heavily in a closed group </p>
+                <p>&emsp; • Senators can be clustered based on their influence into 3 categories</p>
+            </Col>
+          </Row>
+          <Row className="justify-content-center mt-5 mb-4">
+            <Col lg="9">
+              <Title variant="cardLg">08. Findings and further research</Title>
               <p>
               As Lobbyists4America is looking to influence legislation, they need to have influence 
               with the top 2 clusters of senators </p>
