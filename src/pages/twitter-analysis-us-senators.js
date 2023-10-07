@@ -6,7 +6,7 @@ import { Element } from 'react-scroll'
 
 import { Section, Button, Title, Text, Box } from '../components/Core'
 import Contact from '../sections/landing1/Contact'
-import imgSenFols from '../assets/img/portfolio/senfollowers.png'
+import imgSenFol from '../assets/img/portfolio/senfollowers.png'
 import imgDayTrans from '../assets/img/portfolio/daytrans.png'
 import imgAgeTrans from '../assets/img/portfolio/agetrans.png'
 import imgAgeTrans2 from '../assets/img/portfolio/agetrans2.png'
