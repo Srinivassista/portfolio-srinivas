@@ -7,15 +7,7 @@ import { Element } from 'react-scroll'
 import { Section, Button, Title, Text, Box } from '../components/Core'
 import Contact from '../sections/landing1/Contact'
 import imgSenFol from '../assets/img/portfolio/senfollowers.png'
-import imgDayTrans from '../assets/img/portfolio/daytrans.png'
-import imgAgeTrans from '../assets/img/portfolio/agetrans.png'
-import imgAgeTrans2 from '../assets/img/portfolio/agetrans2.png'
-import imgAmtTrans from '../assets/img/portfolio/amttrans.png'
-import imgCatTrans from '../assets/img/portfolio/catgtrans.png'
-import imgLRCM from '../assets/img/portfolio/logregcm.png'
-import imgLRROC from '../assets/img/portfolio/logregroc.png'
-import imgRFCM from '../assets/img/portfolio/rfcm.png'
-import imgRFROC from '../assets/img/portfolio/rfroc.png'
+import imgFolCount from '../assets/img/portfolio/folcount.png'
 import { device, breakpoints } from '../utils'
 
 
@@ -291,7 +283,7 @@ const WorkSingle = () => {
                     <p>&emsp; • Most senators have very low twitter following (median 16k) as well as friends (median 800) with a few outliers</p>
                     <p> <img src={imgSenFol} alt="" className="img-fluid w-100"/></p>
                     <p>&emsp;• Top 5 in terms of following and friends and number of tweets below :</p>
-                      <p>Insert 3 images here from Kaggle notebook</p>
+                      <p><img src={imgFolCount} alt="" className="img-fluid w-100"/></p>
                     <p>&emsp;• Most senators have tweeted less than 3k times (median is 2.7k) over 2008-2017</p>
                     <p> Insert image here</p>
                 </p>
