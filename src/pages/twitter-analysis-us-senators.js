@@ -260,9 +260,11 @@ const WorkSingle = () => {
           <Row className="justify-content-center mt-5 mb-4">
             <Col lg="9">
               <Title variant="cardLg">05. Exploratory Data Analysis</Title>
-                <p> The data is in the form of 2 JSONs
+                <p> The data is in the form of 2 JSONs : 
+                  <br></br>
                   <p>Users.json : list of all relevant twitter users</p>
                   <p>Tweets.json : list of all tweets from the above users</p>
+                  <br></br>
                   The .json files were read into Python as pandas objects 
                   using read_json with defined chunksize because they were large (2GB). 
                   The pandas dataframes were then read back to a csv format to be able to load data easier 
