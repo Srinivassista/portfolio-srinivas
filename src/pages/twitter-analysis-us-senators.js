@@ -261,34 +261,38 @@ const WorkSingle = () => {
             <Col lg="9">
               <Title variant="cardLg">05. Exploratory Data Analysis</Title>
                 <p> The data is in the form of 2 JSONs : 
-                  <br></br>
-                  <p>Users.json : list of all relevant twitter users</p>
-                  <p>Tweets.json : list of all tweets from the above users</p>
-                  <br></br>
+                  <br> 
+                  </br>
+                  <p><u>Users.json</u> : list of all relevant twitter users</p>
+                  <p><u>Tweets.json</u> : list of all tweets from the above users</p>
+                  <br> 
+                  </br>
                   The .json files were read into Python as pandas objects 
-                  using read_json with defined chunksize because they were large (2GB). 
+                  using <code>read_json</code> with defined chunksize because they were large (2GB). 
                   The pandas dataframes were then read back to a csv format to be able to load data easier 
                   in the future.
+                  <br>
+                  </br>
                   <p>• Checked for missing values in both tables and columns 
                     (all missing data/non valuable data/duplicate info) 
                   </p>
                   <p>• New features created from existing columns
                   </p>
-                  <p>• Changed columns type to extract information
-                    <p>Tweets – ‘source’ from html layout to string using BeautifulSoup, extracted 
-                      hashtags used, user ids mentioned in tweets from dict type column</p>
-                  </p>
+                  <p>• Changed columns type to extract information example tweet source from html layout to string using <code>BeautifulSoup</code> and hashtags used, user ids 
+                  mentioned in tweets from dict type column</p>
                   <p>• Removed rows in tweets data not corresponding to users in users table
                   </p>
                 </p>
                 <p>
+                  <br>
+                  </br>
                   <b><u>Users data</u></b> : 
-                    <p> • There are 548 senators that are part of this analysis</p>
-                    <p> • Most senators have very low twitter following (median 16k) as well as friends (median 800) with a few outliers</p>
+                    <p>&emsp; • There are 548 senators that are part of this analysis</p>
+                    <p>&emsp; • Most senators have very low twitter following (median 16k) as well as friends (median 800) with a few outliers</p>
                     <p> Insert 2 graphs here after they are made good looking</p>
-                    <p>• Top 5 in terms of following and friends and number of tweets below :</p>
+                    <p>&emsp;• Top 5 in terms of following and friends and number of tweets below :</p>
                       <p>Insert 3 images here from Kaggle notebook</p>
-                    <p>• Most senators have tweeted less than 3k times (median is 2.7k) over 2008-2017</p>
+                    <p>&emsp;• Most senators have tweeted less than 3k times (median is 2.7k) over 2008-2017</p>
                     <p> Insert image here</p>
                 </p>
                 <p>
@@ -300,9 +304,9 @@ const WorkSingle = () => {
                     <p>&emsp;• There are some outlier days with crazy activity in tweeting that might be worth investigating</p>
                     <p> Inset 2 images here </p>
                     <p>&emsp; • Retweeting/Mentioning and quoting by senators</p>
-                    <p> &emsp;&emsp; • The retweeting/quoting starting from 2015 and has kept increasing. The ratio of retweets over total tweets is also increasing YoY.</p>
-                    <p>&emsp;&emsp; • Mentioning has grown from 20% in 2010 to more than 50% of all tweets made by senators having mentions</p>
-                    <p>&emsp;&emsp; • The overall interaction on twitter by senators is on the up with 55% of all tweets in 2016 having either mentions, quotes are retweeted and this number is still increasing in 2017.</p>
+                    <p> &emsp;&emsp; &#9632 The retweeting/quoting starting from 2015 and has kept increasing. The ratio of retweets over total tweets is also increasing YoY.</p>
+                    <p>&emsp;&emsp; &#9632 Mentioning has grown from 20% in 2010 to more than 50% of all tweets made by senators having mentions</p>
+                    <p>&emsp;&emsp; &#9632 The overall interaction on twitter by senators is on the up with 55% of all tweets in 2016 having either mentions, quotes are retweeted and this number is still increasing in 2017.</p>
                     <p>&emsp; • Use of hashtags by senators</p>
                     <p>&emsp; &emsp; • 2014 and 2015 had more than 50% of tweets with hashtags, however this % is dropping since 2016</p>
                     <p>&emsp; • Relevant topics by year</p>
