@@ -8,6 +8,7 @@ import { Section, Button, Title, Text, Box } from '../components/Core'
 import Contact from '../sections/landing1/Contact'
 import imgSenFol from '../assets/img/portfolio/senfollowers.png'
 import imgFolCount from '../assets/img/portfolio/folcount.png'
+import imgFrndCount from '../assets/img/portfolio/senfriends.png'
 import { device, breakpoints } from '../utils'
 
 
@@ -284,6 +285,8 @@ const WorkSingle = () => {
                     <p> <img src={imgSenFol} alt="" className="img-fluid w-100"/></p>
                     <p>&emsp;• Top 5 in terms of following and friends and number of tweets below :</p>
                       <p><img src={imgFolCount} alt="" className="img-fluid w-100"/></p>
+                      <p><img src={imgFrndCount} alt="" className="img-fluid w-100"/></p>
+                      
                     <p>&emsp;• Most senators have tweeted less than 3k times (median is 2.7k) over 2008-2017</p>
                     <p> Insert image here</p>
                 </p>
