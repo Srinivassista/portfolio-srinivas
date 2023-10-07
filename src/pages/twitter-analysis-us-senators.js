@@ -275,7 +275,37 @@ const WorkSingle = () => {
                   </p>
                   <p>• Removed rows in tweets data not corresponding to users in users table
                   </p>
-              </p>
+                </p>
+                <p>
+                  <b><u>Users data</u></b> : 
+                    <p> • There are 548 senators that are part of this analysis</p>
+                    <p> • Most senators have very low twitter following (median 16k) as well as friends (median 800) with a few outliers</p>
+                    <p> Insert 2 graphs here after they are made good looking</p>
+                    <p>• Top 5 in terms of following and friends and number of tweets below :</p>
+                      <p>Insert 3 images here from Kaggle notebook</p>
+                    <p>• Most senators have tweeted less than 3k times (median is 2.7k) over 2008-2017</p>
+                    <p> Insert image here</p>
+                </p>
+                <p>
+                    <b><u>Tweets data</u></b> :
+                    <p>&emsp;• The data has 1,235,383 tweets with 21 features.</p>
+                    <p>&emsp;• The tweets are from  2008-08-04 to 2017-06-06 – approx. 9 years ( with 3 presidential election years – 2008, 2012 and 2016)</p>
+                    <p>&emsp;• The number of tweets from senators has grown exponentially over the years</p>
+                    <p>&emsp;• 2016 tweeting looks like all time high but 2017 data is only till 6th June so extrapolating to full year would have resulted in 514k senator tweets</p>
+                    <p>&emsp;• There are some outlier days with crazy activity in tweeting that might be worth investigating</p>
+                    <p> Inset 2 images here </p>
+                    <p>&emsp; Retweeting/Mentioning and quoting by senators</p>
+                    <p> &emsp;&ensp; • The retweeting/quoting starting from 2015 and has kept increasing. The ratio of retweets over total tweets is also increasing YoY.</p>
+                    <p>&emsp;&ensp; • Mentioning has grown from 20% in 2010 to more than 50% of all tweets made by senators having mentions</p>
+                    <p>&emsp;&ensp; • The overall interaction on twitter by senators is on the up with 55% of all tweets in 2016 having either mentions, quotes are retweeted and this number is still increasing in 2017.</p>
+                    <p>&emsp; • Use of hashtags by senators</p>
+
+
+
+
+
+
+                </p>
               
                
               
