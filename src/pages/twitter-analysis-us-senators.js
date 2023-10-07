@@ -245,11 +245,11 @@ const WorkSingle = () => {
           <Row className="justify-content-center mt-5 mb-4">
             <Col lg="9">
               <Title variant="cardLg">04. Analysis Techniques Used</Title>
-              <p> • Hypothesis testing with Student-t-test (scipy)
+              <p> • Hypothesis testing with Student-t-test (<code>scipy</code>)
               </p>
-              <p> • Unsupervised machine learning with K-means clustering (sklearn)
+              <p> • Unsupervised machine learning with K-means clustering (<code>sklearn</code>)
               </p>
-              <p> • Network graphs (networkx)
+              <p> • Network graphs (<code>networkx</code>)
               </p>
               
             </Col>
@@ -388,15 +388,14 @@ const WorkSingle = () => {
             <Col lg="9">
               <Title variant="cardLg">08. Findings and further research</Title>
               <p>
-              As Lobbyists4America is looking to influence legislation, they need to have influence 
-              with the top 2 clusters of senators </p>
-              <p>– the Heavy Influencers and Leading Influencers</p>
-              <p>As there is a strong network of senators that retweet,quote and reply to Donald Trump, 
+              • As Lobbyists4America is looking to influence legislation, they need to have influence 
+              with the top 2 clusters of senators - the Heavy Influencers and Leading Influencers</p>
+              <p>• As there is a strong network of senators that retweet,quote and reply to Donald Trump, 
                 it might be useful to engage them on topics they speak about to get amplified</p>
-              <p>There are some key topics that need to be analysed further
-                <p>Obamacare being a top topic for many years, the sentiment analysis of this keyword 
+              <p>• There are some key topics that need to be analysed further
+                <p>&emsp; • Obamacare being a top topic for many years, the sentiment analysis of this keyword 
                   within the highly interactive senators group</p>
-                <p>Analysing some of the days with extremely high number of tweets and the topics 
+                <p>&emsp; • Analysing some of the days with extremely high number of tweets and the topics 
                   to understand any minor campaigns and who influences them most</p>
               </p>
             </Col>
