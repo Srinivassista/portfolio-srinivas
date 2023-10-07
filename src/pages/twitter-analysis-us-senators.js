@@ -6,7 +6,7 @@ import { Element } from 'react-scroll'
 
 import { Section, Button, Title, Text, Box } from '../components/Core'
 import Contact from '../sections/landing1/Contact'
-import imgTimeTrans from '../assets/img/portfolio/timeoftrans.png'
+import imgSenFols from '../assets/img/portfolio/senfollowers.png'
 import imgDayTrans from '../assets/img/portfolio/daytrans.png'
 import imgAgeTrans from '../assets/img/portfolio/agetrans.png'
 import imgAgeTrans2 from '../assets/img/portfolio/agetrans2.png'
@@ -289,12 +289,14 @@ const WorkSingle = () => {
                   <b><u>Users data</u></b> : 
                     <p>&emsp; • There are 548 senators that are part of this analysis</p>
                     <p>&emsp; • Most senators have very low twitter following (median 16k) as well as friends (median 800) with a few outliers</p>
-                    <p> Insert 2 graphs here after they are made good looking</p>
+                    <p> <img src={imgSenFol} alt="" className="img-fluid w-100"/></p>
                     <p>&emsp;• Top 5 in terms of following and friends and number of tweets below :</p>
                       <p>Insert 3 images here from Kaggle notebook</p>
                     <p>&emsp;• Most senators have tweeted less than 3k times (median is 2.7k) over 2008-2017</p>
                     <p> Insert image here</p>
                 </p>
+                <br>
+                </br>
                 <p>
                     <b><u>Tweets data</u></b> :
                     <p>&emsp;• The data has 1,235,383 tweets with 21 features.</p>
