@@ -284,16 +284,15 @@ const WorkSingle = () => {
                   </br>
                   <b><u>Users data</u></b> : 
                     <p>&emsp; • There are 548 senators that are part of this analysis</p>
-                    <p>&emsp; • Most senators have very low twitter following (median 16k) as well as friends (median 800) with a few outliers.
-                      Most senators have tweeted less than 3k times (median is 2.7k) over 2008-2017</p>
+                    <p>&emsp; • Most senators have very low twitter following (median 16k) as well as friends (median 800) with a few outliers.Most senators have tweeted less than 3k times (median is 2.7k) over 2008-2017</p>
                     <p> <img src={imgSenFol} alt="" className="img-fluid w-100"/></p>
                     <p><img src={imgSenFriend} alt="" className="img-fluid w-100"/></p>
                     <p><img src={imgSenTweet} alt="" className="img-fluid w-100"/></p>
                     <p>&emsp;• Top 5 in terms of following and friends and number of tweets below :</p>
                       <Row>
-                          <Col><p><img src={imgFolCount} alt="" className="img-fluid w-100"/></p></Col>
-                          <Col><p><img src={imgFrndCount} alt="" className="img-fluid w-100"/></p></Col>
-                          <Col><p><img src={imgTweetCount} alt="" className="img-fluid w-100"/></p></Col>
+                          <Col><p><img src={imgFolCount} alt="" height="100" width="100"/></p></Col>
+                          <Col><p><img src={imgFrndCount} alt="" height="100" width="100"/></p></Col>
+                          <Col><p><img src={imgTweetCount} alt="" height="100" width="100"/></p></Col>
                       
                       </Row>
                       
