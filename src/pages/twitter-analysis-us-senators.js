@@ -27,6 +27,9 @@ import { IoIosRocket } from 'react-icons/io'
 import { HiEye } from 'react-icons/hi'
 import { BiBong } from 'react-icons/bi'
 import { FaProjectDiagram } from 'react-icons/fa'
+import { HiOutlineBeaker } from 'react-icons/hi'
+import { HiOutlineDocumentText } from 'react-icons/hi'
+
 
 
 import { TbRobot, TbPlugConnected } from 'react-icons/tb'
@@ -54,7 +57,7 @@ const WorkSingle = () => {
             <Col lg="9">
               <Text variant="tag">Data Analysis</Text>
               <Title variant="secSm" className="my-4">
-                Twitter Analysis of US senators ( 2008-2017)
+                Twitter Analysis of US senators
               </Title>
             </Col>
           </Row>
@@ -62,8 +65,8 @@ const WorkSingle = () => {
             <Col lg="9">
               <Title variant="cardLg">01. Learning Objective</Title>
               <p>
-              <p>1. Get experience in working with social media data</p>
-              <p>2. Explore simple network graphs and analysis in Python</p>
+              <p>1. Get experience in analysing social media data</p>
+              <p>2. Explore network graphs and their analysis in Python</p>
               </p>
             </Col>
           </Row>
@@ -201,7 +204,7 @@ const WorkSingle = () => {
                           color: #e4a8ae;
                         `}
                       >
-                        <FaProjectDiagram />
+                        <HiOutlineBeaker />
                       </span>
                     </div>
                   </Col>
@@ -223,10 +226,10 @@ const WorkSingle = () => {
                     <div className="achievements-icon2">
                       <span
                         css={`
-                          color: #e4a8ae;
+                          color: #a7c7e7;
                         `}
                       >
-                        <FaProjectDiagram />
+                        <HiOutlineDocumentText />
                       </span>
                     </div>
                   </Col>
