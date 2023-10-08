@@ -193,9 +193,10 @@ const Profile = () => {
                   <div className="row description-row w-100">
                     <div className="col logo-bottom"></div>
                     <Box className="col description-col" color="text">
-                      <p>
-                        Write the projects here 
-                      </p>
+                      <p> • Analyse processes within the commercial team and recommend data driven improvements</p>
+                      <p> • Prepare organisation for ISO 27001 certification</p>
+                      <p>• Implement a Revenue Recognition solution in collaboration with Finance team </p>
+                      
                     </Box>
                   </div>
                 </ProfileCard>
@@ -237,9 +238,9 @@ const Profile = () => {
                   <div className="row description-row w-100">
                     <div className="col logo-bottom"></div>
                     <Box className="col description-col" color="text">
-                      <p>
-                        Write the projects here 
-                      </p>
+                    <p> • Prospecting, lead generation and managing the deal pipeline </p>
+                    <p> • Work closely with marketing, Sales Operations to leverage data to create an effective sales strategy </p>
+                    
                     </Box>
                   </div>
                 </ProfileCard>
@@ -281,9 +282,10 @@ const Profile = () => {
                   <div className="row description-row w-100">
                     <div className="col logo-bottom"></div>
                     <Box className="col description-col" color="text">
-                      <p>
-                        Write the projects here 
-                      </p>
+                    <p> • Build a business plan and deliver upon critical operations KPIs </p>
+                    <p> • Manage customer service and logistics to ensure a smooth customer journey and high satisfaction</p>
+                    <p> • Build and manage internal processes - sales, fulfillment and payments. Improve continuously on said processes by analysing data</p>
+                    
                     </Box>
                   </div>
                 </ProfileCard>
@@ -325,9 +327,10 @@ const Profile = () => {
                   <div className="row description-row w-100">
                     <div className="col logo-bottom"></div>
                     <Box className="col description-col" color="text">
-                      <p>
-                        Write the projects here 
-                      </p>
+                      <p> • Create, define and execute the business plan. Consistently achieve targets to help the business grow and attract funding </p>
+                      <p> • Setting up and updating all internal standard operating procedures, working instructions and processes for reducing errors and maximizing efficiency </p>
+                      <p> • Controlling costs and managing risks in operations</p>
+                      <p> • Analyse Operational data for the CS,Warehousing and Logistics teams to drive key decisions </p>
                     </Box>
                   </div>
                 </ProfileCard>
