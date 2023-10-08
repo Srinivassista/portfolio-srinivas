@@ -19,7 +19,7 @@ import imgRFROC from '../assets/img/portfolio/rfroc.png'
 import { device, breakpoints } from '../utils'
 
 
-import { HiArrowNarrowLeft } from 'react-icons/hi'
+import { HiArrowNarrowLeft,HiArrowNarrowRight } from 'react-icons/hi'
 import { BiDollar } from 'react-icons/bi'
 import { FaTrophy, FaSmileBeam } from 'react-icons/fa'
 import { FcFactory } from 'react-icons/fc'
@@ -57,6 +57,19 @@ const WorkSingle = () => {
                 Credit Card Fraud Detection
               </Title>
             </Col>
+          </Row>
+          <Row className="justify-content-center mt-5 mb-4">
+            <Link to="https://www.kaggle.com/code/srinivassista2305/credit-card-fraud-detection">
+              <Button>
+                <HiArrowNarrowRight
+                  className="mr-4"
+                  css={`
+                    font-size: 1.25rem;
+                  `}
+                />
+                Kaggle Notebook
+              </Button>
+            </Link>
           </Row>
           <Row className="justify-content-center mt-5 mb-4">
             <Col lg="9">
