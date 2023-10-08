@@ -193,7 +193,7 @@ const Profile = () => {
                   <div className="row description-row w-100">
                     <div className="col logo-bottom"></div>
                     <Box className="col description-col" color="text">
-                      <p> • Analysed processes within the commercial team and recommended data driven improvements</p>
+                      <p> • Collected process data within the commercial team from CRM using <code>SQL</code> and recommended improvements from analysis</p>
                       <p> • Prepared organisation for ISO 27001 certification</p>
                       <p>• Implemented a Revenue Recognition solution in collaboration with Finance team </p>
                       
@@ -239,7 +239,8 @@ const Profile = () => {
                     <div className="col logo-bottom"></div>
                     <Box className="col description-col" color="text">
                     <p> • Prospecting, lead generation and managing the deal pipeline </p>
-                    <p> • Worked closely with marketing, Sales Operations to leverage data to create an effective sales strategy </p>
+                    <p> • Worked closely with marketing, Sales Operations to leverage data to create an effective sales strategy by combining data from multiple sources
+                      (CRM, Excel, Marketing automation tools) </p>
                     
                     </Box>
                   </div>
