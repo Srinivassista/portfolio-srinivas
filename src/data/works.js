@@ -14,8 +14,6 @@ export const works = [
       `Machine Learning`,
       'Supervised Learning',
       'Predictive modeling',
-      'Logistic Regression',
-      'Random Forest Ensemble',
       'Python'
 
 
@@ -61,12 +59,11 @@ export const works = [
     categories: [
       `Data Analysis`,
       `Data Science`,
-      `Python`,
-      'Network analysis',
-      'BeautifulSoup',
-      'JSON',
-      'networkx',
-      'wordcloud'
+      'Feature importances',
+      'Bayesian Networks',
+      'SQL',
+      'BayesiaLab',
+      'Excel'
       
     ],
     thumbnail: imgT4,
@@ -84,9 +81,10 @@ export const works = [
     title: `Prediction of impressions and engagement on a social media post`,
     categories: [
       `Data Analysis`,
-      
       `R`,
-      'Network analysis'
+      'Predictive modeling',
+      'SQL',
+      'General Linear models'
       
     ],
     thumbnail: imgT3,
