@@ -17,7 +17,12 @@ import imgTweetYears from '../assets/img/portfolio/tweetyears.png'
 import imgRetweets from '../assets/img/portfolio/retweets.png'
 import imgMentions from '../assets/img/portfolio/mentions.png'
 import imgInteractions from '../assets/img/portfolio/interaction.png'
-import imgHashtags from '../assets/img/portfolio/hashtags.png'
+import imgCluster from '../assets/img/portfolio/cluster.png'
+import imgConnGraph from '../assets/img/portfolio/conngraph.png'
+import imgDegPlot from '../assets/img/portfolio/degreeplot.png'
+import imgElbow from '../assets/img/portfolio/elbow.png'
+import imgSenatorInt from '../assets/img/portfolio/senint.png'
+
 import { device, breakpoints } from '../utils'
 
 
@@ -395,14 +400,19 @@ const WorkSingle = () => {
                   (2016 vs 2015) had a t-statistic 
                 of -20.05 with a p-value less than 0.05, indicating that infact there is a statistically significant decrease in senator 
                 interaction during the Presidential election years.</p>
+                <p>&emsp; <img src={imgSenatorInt} alt="" height="300" width="500"/></p>
               <p><b><u>Hypothesis B</u></b></p>
                 <p>&emsp; • There is a connected subgraph within the network graph of all senators and their interactions with Donald Trump being the node with highest</p>
+                <p>&emsp; <img src={imgConnGraph} alt="" height="300" width="500"/></p>
                 <p>&emsp; • All other users have much less interaction with each other as seen by the degree histogram</p>
+                <p>&emsp; <img src={imgDegPlot} alt="" height="300" width="500"/></p>
               <p><b><u>Hypothesis C</u></b></p>
                 <p>&emsp; • There are 3 clusters within senators based on # of followers, # of tweets and Interaction with other senators</p>
+                <p>&emsp; &emsp; <img src={imgElbow} alt="" height="300" width="500"/></p>
                   <p>&emsp; &emsp;• HEAVY INFLUENCER : Donald Trump’s very high following puts him as his own cluster</p>
                   <p>&emsp; &emsp;• LEADING INFLUENCERS (in yellow) : A set of 5 senators with medium high following and high interaction ( same mean as Trump), but lower avg tweets than Trump</p>
                   <p>&emsp; &emsp;• The rest are users with low followers, low avg tweets and low interactions – PASSIVES (in purple)</p>
+                  <p>&emsp; &emsp; <img src={imgCluster} alt="" height="300" width="500"/></p>
               <p><b><u>Conclusions from Hypothesis testing</u></b></p>
                 <p>&emsp; • There is no evidence of higher interaction between senators during presidential election years</p>
                 <p>&emsp; • There is a group of senators mainly connected via Trump that interacts heavily in a closed group </p>
