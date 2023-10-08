@@ -22,6 +22,7 @@ import imgConnGraph from '../assets/img/portfolio/conngraph.png'
 import imgDegPlot from '../assets/img/portfolio/degreeplot.png'
 import imgElbow from '../assets/img/portfolio/elbow.png'
 import imgSenatorInt from '../assets/img/portfolio/senint.png'
+import imgHashtags from '../assets/img/portfolio/hashtags.png'
 
 import { device, breakpoints } from '../utils'
 
