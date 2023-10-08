@@ -1,5 +1,5 @@
 import React from 'react'
-import imgT1 from '../assets/img/portfolio/twitter.png'
+import imgT1 from '../assets/img/portfolio/twitter 1.png'
 import imgT2 from '../assets/img/portfolio/ccfraud.jpg'
 import { FaExternalLinkAlt } from 'react-icons/fa'
 
