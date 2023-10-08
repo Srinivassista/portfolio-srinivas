@@ -302,9 +302,9 @@ const WorkSingle = () => {
                     <p><img src={imgSenTweet} alt="" className="img-fluid w-100"/></p>
                     <p>&emsp;• Top 5 in terms of following and friends and number of tweets below :</p>
                       <Row>
-                          <Col><p><img src={imgFolCount} alt="" height="200" width="150"/></p></Col>
-                          <Col><p><img src={imgFrndCount} alt="" height="200" width="150"/></p></Col>
-                          <Col><p><img src={imgTweetCount} alt="" height="200" width="150"/></p></Col>
+                          <Col><p><img src={imgFolCount} alt="" height="200" width="200"/></p></Col>
+                          <Col><p><img src={imgFrndCount} alt="" height="200" width="200"/></p></Col>
+                          <Col><p><img src={imgTweetCount} alt="" height="200" width="200"/></p></Col>
                       
                       </Row>
                       
@@ -321,22 +321,28 @@ const WorkSingle = () => {
                     <p>&emsp;• 2016 tweeting looks like all time high but 2017 data is only till 6th June so extrapolating to full year would have resulted in 514k senator tweets</p>
                     <p>&emsp;• There are some outlier days with crazy activity in tweeting that might be worth investigating</p>
                     <p>&emsp; <img src={imgTweetDays} alt="" height="300" width="800"/></p>
-                    <p>&emsp; • Retweeting/Mentioning and quoting by senators</p>
-                    <p> &emsp;&emsp; &#9632; The retweeting/quoting starting from 2015 and has kept increasing. The ratio of retweets over total tweets is also increasing YoY.</p>
+                    <br>
+                    </br>
+                    <p>&emsp; • <b><u>Retweeting/Mentioning and quoting by senators</u></b></p>
+                    <p> &emsp;&emsp; • The retweeting/quoting starting from 2015 and has kept increasing. The ratio of retweets over total tweets is also increasing YoY.</p>
                     <p>&emsp; &emsp; <img src={imgRetweets} alt="" height="300" width="800"/></p>
-                    <p>&emsp;&emsp; &#9632; Mentioning has grown from 20% in 2010 to more than 50% of all tweets made by senators having mentions</p>
+                    <p>&emsp;&emsp; • Mentioning has grown from 20% in 2010 to more than 50% of all tweets made by senators having mentions</p>
                     <p>&emsp; &emsp; <img src={imgMentions} alt="" height="300" width="800"/></p>
-                    <p>&emsp;&emsp; &#9632; The overall interaction on twitter by senators is on the up with 55% of all tweets in 2016 having either mentions, quotes are retweeted and this number is still increasing in 2017.</p>
+                    <p>&emsp;&emsp; • The overall interaction on twitter by senators is on the up with 55% of all tweets in 2016 having either mentions, quotes are retweeted and this number is still increasing in 2017.</p>
                     <p>&emsp; &emsp; <img src={imgInteractions} alt="" height="300" width="800"/></p>
-                    <p>&emsp; • Use of hashtags by senators</p>
+                    <br>
+                    </br>
+                    <p>&emsp; <b><u>• Use of hashtags by senators</u></b></p>
                     <p>&emsp; &emsp; • 2014 and 2015 had more than 50% of tweets with hashtags, however this % is dropping since 2016</p>
                     <p>&emsp; &emsp; <img src={imgHashtags} alt="" height="300" width="800"/></p>
-                    <p>&emsp; • Relevant topics by year</p>
-                    <p>&emsp; &emsp; &#9632; TCOT (Top Conservatives of Twitter) was used a lot till 2014</p>
-                    <p>&emsp; &emsp; &#9632; 4jobs was a relevant hashtag in 2011 and 2012</p>
-                    <p>&emsp; &emsp; &#9632; 2015 and 2016 had State of the Union being discussed a lot (#SOTU). Even though this is annual, only these 2 years have seen it being a big focus</p>
-                    <p>&emsp; &emsp; &#9632; Obamacare has been a top topic since 2012 to 2017 constantly</p>
-                    <p>&emsp; &emsp; &#9632; Zika in 2016 and Trumpcare in 2017 were highly discussed topics</p>
+                    <br>
+                    </br>
+                    <p>&emsp; <u><b> • Relevant topics by year</b></u></p>
+                    <p>&emsp; &emsp; • TCOT (Top Conservatives of Twitter) was used a lot till 2014</p>
+                    <p>&emsp; &emsp; • 4jobs was a relevant hashtag in 2011 and 2012</p>
+                    <p>&emsp; &emsp; • 2015 and 2016 had State of the Union being discussed a lot (#SOTU). Even though this is annual, only these 2 years have seen it being a big focus</p>
+                    <p>&emsp; &emsp; • Obamacare has been a top topic since 2012 to 2017 constantly</p>
+                    <p>&emsp; &emsp; • Zika in 2016 and Trumpcare in 2017 were highly discussed topics</p>
 
 
 
