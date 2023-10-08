@@ -54,6 +54,49 @@ export const works = [
       </p>
     )
   },
+  {
+    title: `Impact of diaper features on sales in South America for P&G`,
+    categories: [
+      `Data Analysis`,
+      `Data Science`,
+      `Python`,
+      'Network analysis',
+      'BeautifulSoup',
+      'JSON',
+      'networkx',
+      'wordcloud'
+      
+    ],
+    thumbnail: imgT1,
+    link: '/diaper-features-impact',
+    description: (
+      <p>
+        Analysed tweets from select US senators from 2008-2017 to understand the key topics,
+        key members and the relationships between them. Created multiple hypothesis and tested
+        with available data to deliver conclusions.
+      </p>
+    )
+  },
+
+  {
+    title: `Prediction of impressions and engagement on a social media post`,
+    categories: [
+      `Data Analysis`,
+      
+      `R`,
+      'Network analysis'
+      
+    ],
+    thumbnail: imgT1,
+    link: '/impressions-prediction-social-media',
+    description: (
+      <p>
+        Analysed tweets from select US senators from 2008-2017 to understand the key topics,
+        key members and the relationships between them. Created multiple hypothesis and tested
+        with available data to deliver conclusions.
+      </p>
+    )
+  },
   
   
 ]
