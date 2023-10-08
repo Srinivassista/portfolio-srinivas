@@ -8,7 +8,15 @@ export const works = [
     title: `Credit Card Fraud Detection`,
     categories: [
       `Data Analysis`,
-      `Machine Learning`
+      `Data Science`,
+      `Machine Learning`,
+      'Supervised Learning',
+      'Predictive modeling',
+      'Logistic Regression',
+      'Random Forest Ensemble',
+      'Python'
+
+
     ],
     thumbnail: imgT2,
     link: '/credit-card-fraud-detection',
@@ -26,6 +34,7 @@ export const works = [
   {
     title: `Twitter analysis of US senators`,
     categories: [
+      `Data Analysis`,
       `Data Science`,
       `Python`,
       'Network analysis',
