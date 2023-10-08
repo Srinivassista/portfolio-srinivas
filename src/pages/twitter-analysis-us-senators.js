@@ -27,7 +27,7 @@ import imgHashtags from '../assets/img/portfolio/hashtags.png'
 import { device, breakpoints } from '../utils'
 
 
-import { HiArrowNarrowLeft } from 'react-icons/hi'
+import { HiArrowNarrowLeft,HiArrowNarrowRight} from 'react-icons/hi'
 import { BiDollar } from 'react-icons/bi'
 import { FaTrophy, FaSmileBeam } from 'react-icons/fa'
 import { FcFactory } from 'react-icons/fc'
