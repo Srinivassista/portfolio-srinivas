@@ -59,7 +59,7 @@ const WorkSingle = () => {
             </Col>
           </Row>
           <Row className="justify-content-center mt-5 mb-4">
-            <Link to="https://www.kaggle.com/code/srinivassista2305/credit-card-fraud-detection">
+            <Link to="https://www.kaggle.com/code/srinivassista2305/credit-card-fraud-detection" target="_blank" >
               <Button>
                 <HiArrowNarrowRight
                   className="mr-4"

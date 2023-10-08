@@ -70,6 +70,19 @@ const WorkSingle = () => {
             </Col>
           </Row>
           <Row className="justify-content-center mt-5 mb-4">
+            <Link to="https://www.kaggle.com/code/srinivassista2305/twitter-data-analysis" target="_blank" >
+              <Button>
+                <HiArrowNarrowRight
+                  className="mr-4"
+                  css={`
+                    font-size: 1.25rem;
+                  `}
+                />
+                Kaggle Notebook
+              </Button>
+            </Link>
+          </Row>
+          <Row className="justify-content-center mt-5 mb-4">
             <Col lg="9">
               <Title variant="cardLg">01. Learning Objective</Title>
               <p>
