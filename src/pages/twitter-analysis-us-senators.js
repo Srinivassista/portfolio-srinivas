@@ -12,6 +12,8 @@ import imgSenFriend from '../assets/img/portfolio/senfriends.png'
 import imgFrndCount from '../assets/img/portfolio/frcount.png'
 import imgSenTweet from '../assets/img/portfolio/sentweets.png'
 import imgTweetCount from '../assets/img/portfolio/twcount.png'
+import imgTweetDays from '../assets/img/portfolio/tweetdays.png'
+import imgTweetYears from '../assets/img/portfolio/tweetyears.png'
 import { device, breakpoints } from '../utils'
 
 
@@ -290,9 +292,9 @@ const WorkSingle = () => {
                     <p><img src={imgSenTweet} alt="" className="img-fluid w-100"/></p>
                     <p>&emsp;• Top 5 in terms of following and friends and number of tweets below :</p>
                       <Row>
-                          <Col><p><img src={imgFolCount} alt="" height="100" width="100"/></p></Col>
-                          <Col><p><img src={imgFrndCount} alt="" height="100" width="100"/></p></Col>
-                          <Col><p><img src={imgTweetCount} alt="" height="100" width="100"/></p></Col>
+                          <Col><p><img src={imgFolCount} alt="" height="200" width="150"/></p></Col>
+                          <Col><p><img src={imgFrndCount} alt="" height="200" width="150"/></p></Col>
+                          <Col><p><img src={imgTweetCount} alt="" height="200" width="150"/></p></Col>
                       
                       </Row>
                       
@@ -305,9 +307,10 @@ const WorkSingle = () => {
                     <p>&emsp;• The data has 1,235,383 tweets with 21 features.</p>
                     <p>&emsp;• The tweets are from  2008-08-04 to 2017-06-06 – approx. 9 years ( with 3 presidential election years – 2008, 2012 and 2016)</p>
                     <p>&emsp;• The number of tweets from senators has grown exponentially over the years</p>
+                    <p>&emsp; <img src={imgTweetYears} alt="" height="200" width="150"/></p>
                     <p>&emsp;• 2016 tweeting looks like all time high but 2017 data is only till 6th June so extrapolating to full year would have resulted in 514k senator tweets</p>
                     <p>&emsp;• There are some outlier days with crazy activity in tweeting that might be worth investigating</p>
-                    <p> Inset 2 images here </p>
+                    <p>&emsp; <img src={imgTweetDays} alt="" height="200" width="150"/></p>
                     <p>&emsp; • Retweeting/Mentioning and quoting by senators</p>
                     <p> &emsp;&emsp; &#9632; The retweeting/quoting starting from 2015 and has kept increasing. The ratio of retweets over total tweets is also increasing YoY.</p>
                     <p>&emsp;&emsp; &#9632; Mentioning has grown from 20% in 2010 to more than 50% of all tweets made by senators having mentions</p>
