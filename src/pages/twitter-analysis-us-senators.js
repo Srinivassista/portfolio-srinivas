@@ -326,9 +326,14 @@ const WorkSingle = () => {
                     <p>&emsp; • <b><u>Retweeting/Mentioning and quoting by senators</u></b></p>
                     <p> &emsp;&emsp; • The retweeting/quoting starting from 2015 and has kept increasing. The ratio of retweets over total tweets is also increasing YoY.</p>
                     <p>&emsp; &emsp; <img src={imgRetweets} alt="" height="300" width="800"/></p>
+                    <br>
+                    </br>
                     <p>&emsp;&emsp; • Mentioning has grown from 20% in 2010 to more than 50% of all tweets made by senators having mentions</p>
                     <p>&emsp; &emsp; <img src={imgMentions} alt="" height="300" width="800"/></p>
-                    <p>&emsp;&emsp; • The overall interaction on twitter by senators is on the up with 55% of all tweets in 2016 having either mentions, quotes are retweeted and this number is still increasing in 2017.</p>
+                    <br>
+                    </br>
+                    <p>&emsp;&emsp; • The overall interaction on twitter by senators is on the up with 55% of all tweets in 2016 having either mentions, 
+                    &emsp; &emsp; quotes are retweeted and this number is still increasing in 2017.</p>
                     <p>&emsp; &emsp; <img src={imgInteractions} alt="" height="300" width="800"/></p>
                     <br>
                     </br>
@@ -340,7 +345,8 @@ const WorkSingle = () => {
                     <p>&emsp; <u><b> • Relevant topics by year</b></u></p>
                     <p>&emsp; &emsp; • TCOT (Top Conservatives of Twitter) was used a lot till 2014</p>
                     <p>&emsp; &emsp; • 4jobs was a relevant hashtag in 2011 and 2012</p>
-                    <p>&emsp; &emsp; • 2015 and 2016 had State of the Union being discussed a lot (#SOTU). Even though this is annual, only these 2 years have seen it being a big focus</p>
+                    <p>&emsp; &emsp; • 2015 and 2016 had State of the Union being discussed a lot (#SOTU). 
+                    &emsp; &emsp; Even though this is annual, only these 2 years have seen it being a big focus</p>
                     <p>&emsp; &emsp; • Obamacare has been a top topic since 2012 to 2017 constantly</p>
                     <p>&emsp; &emsp; • Zika in 2016 and Trumpcare in 2017 were highly discussed topics</p>
 
@@ -366,13 +372,16 @@ const WorkSingle = () => {
               <table border="1" border-spacing="10px" border-collapse="separate" padding="15px">
                  
                 <tr>
+                  <th>#
+                  </th>
                   <th> Hypothesis
                   </th>
                   <th>Test
                   </th>
                 </tr>
                 <tr>
-                  <td> Hypothesis A : Presidential election years see an increase in senator interaction 
+                  <td> Hypothesis A</td>
+                  <td> Presidential election years see an increase in senator interaction 
                 activity due to party campaigns.</td>
                   <td>The % of tweets with interactions with other senators will be higher in 2012 and 2016 compared to other years as these are 
                 presidential campaign years and I expect there to be strong Twitter campaigns
@@ -380,7 +389,8 @@ const WorkSingle = () => {
                 </tr> 
                 
                 <tr> 
-                  <td> Hypothesis B: There is a section of users that have a strong interaction with each 
+                  <td> Hypothesis B</td>
+                  <td> There is a section of users that have a strong interaction with each 
                 other for 2016 presidential campaign.
                   </td> 
                   <td>There is a connected subgraph within the graph 
@@ -388,7 +398,8 @@ const WorkSingle = () => {
                   </td>
                 </tr>
                 <tr>
-                  <td>Hypothesis C: Users had different roles in campaign amplification during 2016 
+                  <td> Hypothesis C</td>
+                  <td>Users had different roles in campaign amplification during 2016 
                 presidential campaign
                   </td> 
                   <td>User clustering will yield clusters with well defined roles
