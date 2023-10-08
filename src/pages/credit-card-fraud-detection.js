@@ -228,7 +228,7 @@ const WorkSingle = () => {
           <Row className="justify-content-center mt-5 mb-4">
             <Col lg="9">
               <Title variant="cardLg">05. Exploratory Data Analysis</Title>
-                <p> The data is available in the form of a csv which was read into Python using pandas.
+                <p> The data is available in the form of a csv which was read into Python using <code>pandas</code>.
                     There were no missing values in the data and the data could be used as it was for analysis.
                     Some variables were created from existing variables
                   <p>• Transaction time  
