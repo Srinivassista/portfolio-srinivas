@@ -1,6 +1,8 @@
 import React from 'react'
 import imgT1 from '../assets/img/portfolio/twitter 1.png'
 import imgT2 from '../assets/img/portfolio/ccfraud.jpg'
+import imgT3 from '../assets/img/portfolio/socialmedia.png'
+import imgT4 from '../assets/img/portfolio/diapers.png'
 import { FaExternalLinkAlt } from 'react-icons/fa'
 
 export const works = [
@@ -67,7 +69,7 @@ export const works = [
       'wordcloud'
       
     ],
-    thumbnail: imgT1,
+    thumbnail: imgT4,
     link: '/diaper-features-impact',
     description: (
       <p>
@@ -87,7 +89,7 @@ export const works = [
       'Network analysis'
       
     ],
-    thumbnail: imgT1,
+    thumbnail: imgT3,
     link: '/impressions-prediction-social-media',
     description: (
       <p>
