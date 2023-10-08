@@ -17,6 +17,7 @@ import imgTweetYears from '../assets/img/portfolio/tweetyears.png'
 import imgRetweets from '../assets/img/portfolio/retweets.png'
 import imgMentions from '../assets/img/portfolio/mentions.png'
 import imgInteractions from '../assets/img/portfolio/interaction.png'
+import imgHashtags from '../assets/img/portfolio/hashtags.png'
 import { device, breakpoints } from '../utils'
 
 
@@ -310,19 +311,20 @@ const WorkSingle = () => {
                     <p>&emsp;• The data has 1,235,383 tweets with 21 features.</p>
                     <p>&emsp;• The tweets are from  2008-08-04 to 2017-06-06 – approx. 9 years ( with 3 presidential election years – 2008, 2012 and 2016)</p>
                     <p>&emsp;• The number of tweets from senators has grown exponentially over the years</p>
-                    <p>&emsp; <img src={imgTweetYears} alt="" height="500" width="800"/></p>
+                    <p>&emsp; <img src={imgTweetYears} alt="" height="300" width="800"/></p>
                     <p>&emsp;• 2016 tweeting looks like all time high but 2017 data is only till 6th June so extrapolating to full year would have resulted in 514k senator tweets</p>
                     <p>&emsp;• There are some outlier days with crazy activity in tweeting that might be worth investigating</p>
-                    <p>&emsp; <img src={imgTweetDays} alt="" height="500" width="800"/></p>
+                    <p>&emsp; <img src={imgTweetDays} alt="" height="300" width="800"/></p>
                     <p>&emsp; • Retweeting/Mentioning and quoting by senators</p>
                     <p> &emsp;&emsp; &#9632; The retweeting/quoting starting from 2015 and has kept increasing. The ratio of retweets over total tweets is also increasing YoY.</p>
-                    <p>&emsp; &emsp; <img src={imgRetweets} alt="" height="500" width="800"/></p>
+                    <p>&emsp; &emsp; <img src={imgRetweets} alt="" height="300" width="800"/></p>
                     <p>&emsp;&emsp; &#9632; Mentioning has grown from 20% in 2010 to more than 50% of all tweets made by senators having mentions</p>
-                    <p>&emsp; &emsp; <img src={imgMentions} alt="" height="500" width="800"/></p>
+                    <p>&emsp; &emsp; <img src={imgMentions} alt="" height="300" width="800"/></p>
                     <p>&emsp;&emsp; &#9632; The overall interaction on twitter by senators is on the up with 55% of all tweets in 2016 having either mentions, quotes are retweeted and this number is still increasing in 2017.</p>
-                    <p>&emsp; &emsp; <img src={imgInteractions} alt="" height="500" width="800"/></p>
+                    <p>&emsp; &emsp; <img src={imgInteractions} alt="" height="300" width="800"/></p>
                     <p>&emsp; • Use of hashtags by senators</p>
                     <p>&emsp; &emsp; • 2014 and 2015 had more than 50% of tweets with hashtags, however this % is dropping since 2016</p>
+                    <p>&emsp; &emsp; <img src={imgHashtags} alt="" height="300" width="800"/></p>
                     <p>&emsp; • Relevant topics by year</p>
                     <p>&emsp; &emsp; &#9632; TCOT (Top Conservatives of Twitter) was used a lot till 2014</p>
                     <p>&emsp; &emsp; &#9632; 4jobs was a relevant hashtag in 2011 and 2012</p>
