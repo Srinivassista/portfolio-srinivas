@@ -193,9 +193,9 @@ const Profile = () => {
                   <div className="row description-row w-100">
                     <div className="col logo-bottom"></div>
                     <Box className="col description-col" color="text">
-                      <p> • Analyse processes within the commercial team and recommend data driven improvements</p>
-                      <p> • Prepare organisation for ISO 27001 certification</p>
-                      <p>• Implement a Revenue Recognition solution in collaboration with Finance team </p>
+                      <p> • Analysed processes within the commercial team and recommended data driven improvements</p>
+                      <p> • Prepared organisation for ISO 27001 certification</p>
+                      <p>• Implemented a Revenue Recognition solution in collaboration with Finance team </p>
                       
                     </Box>
                   </div>
@@ -239,7 +239,7 @@ const Profile = () => {
                     <div className="col logo-bottom"></div>
                     <Box className="col description-col" color="text">
                     <p> • Prospecting, lead generation and managing the deal pipeline </p>
-                    <p> • Work closely with marketing, Sales Operations to leverage data to create an effective sales strategy </p>
+                    <p> • Worked closely with marketing, Sales Operations to leverage data to create an effective sales strategy </p>
                     
                     </Box>
                   </div>
@@ -282,9 +282,9 @@ const Profile = () => {
                   <div className="row description-row w-100">
                     <div className="col logo-bottom"></div>
                     <Box className="col description-col" color="text">
-                    <p> • Build a business plan and deliver upon critical operations KPIs </p>
-                    <p> • Manage customer service and logistics to ensure a smooth customer journey and high satisfaction</p>
-                    <p> • Build and manage internal processes - sales, fulfillment and payments. Improve continuously on said processes by analysing data</p>
+                    <p> • Built a business plan and delivered upon critical operations KPIs </p>
+                    <p> • Managed customer service and logistics to ensure a smooth customer journey and high satisfaction</p>
+                    <p> • Built and managed internal processes - sales, fulfillment and payments. Improved continuously on said processes by analysing data</p>
                     
                     </Box>
                   </div>
@@ -327,10 +327,10 @@ const Profile = () => {
                   <div className="row description-row w-100">
                     <div className="col logo-bottom"></div>
                     <Box className="col description-col" color="text">
-                      <p> • Create, define and execute the business plan. Consistently achieve targets to help the business grow and attract funding </p>
-                      <p> • Setting up and updating all internal standard operating procedures, working instructions and processes for reducing errors and maximizing efficiency </p>
-                      <p> • Controlling costs and managing risks in operations</p>
-                      <p> • Analyse Operational data for the CS,Warehousing and Logistics teams to drive key decisions </p>
+                      <p> • Created, defined and executed the business plan. Consistently achieved targets to help the business grow and attract funding </p>
+                      <p> • Set up and updated all internal standard operating procedures, working instructions and processes for reducing errors and maximizing efficiency </p>
+                      <p> • Controlled costs and managing risks in operations</p>
+                      <p> • Analysed Operational data for the CS,Warehousing and Logistics teams to drive key decisions </p>
                     </Box>
                   </div>
                 </ProfileCard>
@@ -373,12 +373,12 @@ const Profile = () => {
                     <div className="col logo-bottom"></div>
                     <Box className="col description-col" color="text">
                       <p>
-                        • Analyzing sales and marketing data to create strategies for 
+                        • Analyzed sales and marketing data to create strategies for 
                         category management team that enabled them to make important decisions during the hyper growth phase of the company.
                       </p>
                       <p>
-                        • Coordinating activities between Purchasing and other departments within the company to achieve profitability, 
-                        margin and inventory KPIs. Driving important KPI focussed meetings ( S&OP, Overstock) to reduce operational risk within the e-retail business
+                        • Coordinated activities between Purchasing and other departments within the company to achieve profitability, 
+                        margin and inventory KPIs. Drove important KPI focussed meetings ( S&OP, Overstock) to reduce operational risk within the e-retail business
                       </p>
                       
                     </Box>
