@@ -332,8 +332,7 @@ const WorkSingle = () => {
                     <p>&emsp; &emsp; <img src={imgMentions} alt="" height="300" width="800"/></p>
                     <br>
                     </br>
-                    <p>&emsp;&emsp; • The overall interaction on twitter by senators is on the up with 55% of all tweets in 2016 having either mentions, 
-                    &emsp; &emsp; quotes are retweeted and this number is still increasing in 2017.</p>
+                    <p>&emsp;&emsp; • The overall interaction on twitter by senators is on the up with 55% of all tweets in 2016 having either mentions, quotes are retweeted and this number is still increasing in 2017.</p>
                     <p>&emsp; &emsp; <img src={imgInteractions} alt="" height="300" width="800"/></p>
                     <br>
                     </br>
@@ -345,8 +344,7 @@ const WorkSingle = () => {
                     <p>&emsp; <u><b> • Relevant topics by year</b></u></p>
                     <p>&emsp; &emsp; • TCOT (Top Conservatives of Twitter) was used a lot till 2014</p>
                     <p>&emsp; &emsp; • 4jobs was a relevant hashtag in 2011 and 2012</p>
-                    <p>&emsp; &emsp; • 2015 and 2016 had State of the Union being discussed a lot (#SOTU). 
-                    &emsp; &emsp; Even though this is annual, only these 2 years have seen it being a big focus</p>
+                    <p>&emsp; &emsp; • 2015 and 2016 had State of the Union being discussed a lot (#SOTU). Even though this is annual, only these 2 years have seen it being a big focus</p>
                     <p>&emsp; &emsp; • Obamacare has been a top topic since 2012 to 2017 constantly</p>
                     <p>&emsp; &emsp; • Zika in 2016 and Trumpcare in 2017 were highly discussed topics</p>
 
@@ -380,7 +378,7 @@ const WorkSingle = () => {
                   </th>
                 </tr>
                 <tr>
-                  <td> Hypothesis A</td>
+                  <td> A</td>
                   <td> Presidential election years see an increase in senator interaction 
                 activity due to party campaigns.</td>
                   <td>The % of tweets with interactions with other senators will be higher in 2012 and 2016 compared to other years as these are 
@@ -389,7 +387,7 @@ const WorkSingle = () => {
                 </tr> 
                 
                 <tr> 
-                  <td> Hypothesis B</td>
+                  <td> B</td>
                   <td> There is a section of users that have a strong interaction with each 
                 other for 2016 presidential campaign.
                   </td> 
@@ -398,7 +396,7 @@ const WorkSingle = () => {
                   </td>
                 </tr>
                 <tr>
-                  <td> Hypothesis C</td>
+                  <td> C</td>
                   <td>Users had different roles in campaign amplification during 2016 
                 presidential campaign
                   </td> 
@@ -427,9 +425,9 @@ const WorkSingle = () => {
               <p><b><u>Hypothesis C</u></b></p>
                 <p>&emsp; • There are 3 clusters within senators based on # of followers, # of tweets and Interaction with other senators</p>
                 <p>&emsp; &emsp; <img src={imgElbow} alt="" height="300" width="500"/></p>
-                  <p>&emsp; &emsp;• HEAVY INFLUENCER : Donald Trump’s very high following puts him as his own cluster</p>
-                  <p>&emsp; &emsp;• LEADING INFLUENCERS (in yellow) : A set of 5 senators with medium high following and high interaction ( same mean as Trump), but lower avg tweets than Trump</p>
-                  <p>&emsp; &emsp;• The rest are users with low followers, low avg tweets and low interactions – PASSIVES (in purple)</p>
+                  <p>&emsp; &emsp;- HEAVY INFLUENCER : Donald Trump’s very high following puts him as his own cluster</p>
+                  <p>&emsp; &emsp;- LEADING INFLUENCERS (in yellow) : A set of 5 senators with medium high following and high interaction ( same mean as Trump), but lower avg tweets than Trump</p>
+                  <p>&emsp; &emsp;- The rest are users with low followers, low avg tweets and low interactions – PASSIVES (in purple)</p>
                   <p>&emsp; &emsp; <img src={imgCluster} alt="" height="300" width="500"/></p>
               <p><b><u>Conclusions from Hypothesis testing</u></b></p>
                 <p>&emsp; • There is no evidence of higher interaction between senators during presidential election years</p>
@@ -446,9 +444,9 @@ const WorkSingle = () => {
               <p>• As there is a strong network of senators that retweet,quote and reply to Donald Trump, 
                 it might be useful to engage them on topics they speak about to get amplified</p>
               <p>• There are some key topics that need to be analysed further
-                <p>&emsp; • Obamacare being a top topic for many years, the sentiment analysis of this keyword 
+                <p>&emsp; - Obamacare being a top topic for many years, the sentiment analysis of this keyword 
                   within the highly interactive senators group</p>
-                <p>&emsp; • Analysing some of the days with extremely high number of tweets and the topics 
+                <p>&emsp; - Analysing some of the days with extremely high number of tweets and the topics 
                   to understand any minor campaigns and who influences them most</p>
               </p>
             </Col>
