@@ -569,10 +569,10 @@ const Profile = () => {
                     <a href="https://github.com/Srinivassista/portfolio-srinivas/blob/main/src/assets/cert/Data_Analyst.pdf" target="_blank">• Data Analyst Professional Certificate | IBM (Coursera)</a>
                     </p>
                     <p>
-                    <a href="https://github.com/Srinivassista/portfolio-srinivas/blob/main/src/assets/cert/SQL_basics.pdf" target="_blank"></a>• SQL Basics for Data Science | UC Davis (Coursera)
+                    <a href="https://github.com/Srinivassista/portfolio-srinivas/blob/main/src/assets/cert/SQL_basics.pdf" target="_blank">• SQL Basics for Data Science | UC Davis (Coursera)</a>
                     </p>
                     <p>
-                    <a href="https://github.com/Srinivassista/portfolio-srinivas/blob/main/src/assets/cert/tableau.pdf" target="_blank"></a>• Data Vizualisation with Tableau | UC Davis (Coursera)
+                    <a href="https://github.com/Srinivassista/portfolio-srinivas/blob/main/src/assets/cert/tableau.pdf" target="_blank">• Data Vizualisation with Tableau | UC Davis (Coursera)</a>
                     </p>
 
                     <p>
