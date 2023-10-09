@@ -70,9 +70,8 @@ export const works = [
     link: '/diaper-features-impact',
     description: (
       <p>
-        Analysed tweets from select US senators from 2008-2017 to understand the key topics,
-        key members and the relationships between them. Created multiple hypothesis and tested
-        with available data to deliver conclusions.
+        Analysed packaging data for diapers category across South America to understand its impact on sales for P&G.
+        The analysis was aimed at understanding the impact of marketing on packaging towards sales and customer perception of the brand.
       </p>
     )
   },
