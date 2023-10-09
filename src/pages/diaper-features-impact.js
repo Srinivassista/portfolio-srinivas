@@ -184,9 +184,7 @@ const WorkSingle = () => {
               </Col>
             </Col>
           </Row>
-              <p> 1) Nielsen database</p>
-              <p>2) Excel files from client containing data on packaging, associated promotions</p>
-              <p>3) Survey data </p>
+        
             <br>
             </br>
             <p>To analyse this data the following tools and steps were taken </p>
@@ -199,9 +197,8 @@ const WorkSingle = () => {
             The main findings of this analysis were 
             <p>1) Packaging variables like color, promotion text used had a minimal impact on the sales with the actual promotion being the feature with highest importance</p>
             <p>2) Customer's perception of packaging did not impact sales ( Perception variables were not able to explain enough variance)</p>
-              </p>
-            </Col>
-          </Row>
+              
+            
 
 
           </Container>
