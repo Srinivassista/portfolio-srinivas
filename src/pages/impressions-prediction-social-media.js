@@ -173,15 +173,15 @@ const WorkSingle = () => {
             <Col lg="9">
               <Title variant="cardLg">03. Analysis steps and results</Title>
               <p>To analyse this data the following tools and steps were taken </p>
-            <p>• Data was cleaned to remove unwanted variables ( more than 1000) in <code>R</code> and <code>Excel</code> </p>
-            <p>• Data was collated using <code>SQL</code></p>
-            <p>• A Naive Bayes model was created used <code>BayesiaLab</code></p>
-            <p>• A report was created to present findings</p>
+            <p>• Data across multiple tables was joined in SQL and feature selection performed based off exploration</p>
+            <p>• A simple linear regresion model was created for impressions and engagement based on variables like number of followers, posts per day, time of posts</p>
+            <p>• A excel calculator was created based on results of the model to make it easy for sales team to make instant quotes</p>
+            
             <br>
             </br>
             The main findings of this analysis were 
-            <p>• Packaging variables like color, promotion text used had a minimal impact on the sales with the actual promotion being the feature with highest importance</p>
-            <p>• Customer's perception of packaging did not impact sales ( Perception variables were not able to explain enough variance)</p>
+            <p>• Number of followers,marketing spend on content boost and past engagement were strong predictors of impressions and engagement ( could explain 70% of variance)</p>
+            <p>• A deep learning model could make better predictions but had less usability in the business sense </p>
             </Col>
           </Row>
           <Row className="justify-content-center mt-5 mb-4">
