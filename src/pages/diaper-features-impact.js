@@ -205,7 +205,19 @@ const WorkSingle = () => {
             <p>• Customer's perception of packaging did not impact sales ( Perception variables were not able to explain enough variance)</p>
             </Col>
           </Row>
-            
+          <Row className="justify-content-center mt-5 mb-4">
+            <Link to="/">
+              <Button>
+                <HiArrowNarrowLeft
+                  className="mr-4"
+                  css={`
+                    font-size: 1.25rem;
+                  `}
+                />
+                Home
+              </Button>
+            </Link>
+          </Row> 
               
             
 
