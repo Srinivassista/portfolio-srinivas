@@ -429,7 +429,7 @@ const Profile = () => {
                                            
                       </p>
                       <p>
-                        • Combined data from different sources ( Excel, SQL database), manipulated data in R and used Tableau for creating compelling visuals
+                        • Combined data from different sources ( <code>Excel</code>,<code> SQL</code> database), manipulated data in <code>R </code>and used <code>Tableau</code> for creating compelling visuals
                       </p>
                     </Box>
                   </div>
@@ -532,7 +532,7 @@ const Profile = () => {
                     </p>
                     <p>
                       • Data Science : <code>Python💪</code>, {' '}
-                      Data Wrangling with pandas,<code>ML models with Scikit-Learn💪</code>,{' '}
+                      <code>Data Wrangling with pandas</code>,<code>ML models with Scikit-Learn💪</code>,{' '}
                       (Un)Supervised Learning 
                     </p>
                     
@@ -569,10 +569,10 @@ const Profile = () => {
                     <a href="https://github.com/Srinivassista/portfolio-srinivas/blob/main/src/assets/cert/Data_Analyst.pdf" target="_blank">• Data Analyst Professional Certificate | IBM (Coursera)</a>
                     </p>
                     <p>
-                    • SQL Basics for Data Science | UC Davis (Coursera)
+                    <a href="https://github.com/Srinivassista/portfolio-srinivas/blob/main/src/assets/cert/SQL_basics.pdf" target="_blank"></a>• SQL Basics for Data Science | UC Davis (Coursera)
                     </p>
                     <p>
-                    • Data Vizualisation with Tableau | UC Davis (Coursera)
+                    <a href="https://github.com/Srinivassista/portfolio-srinivas/blob/main/src/assets/cert/tableau.pdf" target="_blank"></a>• Data Vizualisation with Tableau | UC Davis (Coursera)
                     </p>
 
                     <p>
