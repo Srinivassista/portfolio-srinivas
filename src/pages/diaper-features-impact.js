@@ -198,10 +198,7 @@ const WorkSingle = () => {
             <Row className="justify-content-center mt-5 mb-4">
             <Col lg="9">
               <Title variant="cardLg">03. Analysis steps and results</Title>
-              
-            </Col>
-          </Row>
-            <p>To analyse this data the following tools and steps were taken </p>
+              <p>To analyse this data the following tools and steps were taken </p>
             <p>1) Data was cleaned to remove unwanted variables ( more than 1000) in <code>R</code> and <code>Excel</code> </p>
             <p>2) Data was collated using <code>SQL</code></p>
             <p>3) A Naive Bayes model was created used <code>BayesiaLab</code></p>
@@ -211,6 +208,9 @@ const WorkSingle = () => {
             The main findings of this analysis were 
             <p>1) Packaging variables like color, promotion text used had a minimal impact on the sales with the actual promotion being the feature with highest importance</p>
             <p>2) Customer's perception of packaging did not impact sales ( Perception variables were not able to explain enough variance)</p>
+            </Col>
+          </Row>
+            
               
             
 
