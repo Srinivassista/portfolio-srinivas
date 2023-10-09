@@ -63,7 +63,8 @@ export const works = [
       'Bayesian Networks',
       'SQL',
       'BayesiaLab',
-      'Excel'
+      'Excel',
+      'Machine Learning'
       
     ],
     thumbnail: imgT4,
