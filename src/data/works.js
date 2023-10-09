@@ -55,7 +55,7 @@ export const works = [
     )
   },
   {
-    title: `Impact of diaper features on sales in South America for P&G`,
+    title: `Impact of diaper packaging on sales in South America for P&G`,
     categories: [
       `Data Analysis`,
       `Data Science`,
@@ -90,9 +90,8 @@ export const works = [
     link: '/impressions-prediction-social-media',
     description: (
       <p>
-        Analysed tweets from select US senators from 2008-2017 to understand the key topics,
-        key members and the relationships between them. Created multiple hypothesis and tested
-        with available data to deliver conclusions.
+        Analysed performance of Social media creators in paid and unpaid campaigns to predict impressions and engagements on posts across Twitter,Facbook and Instagram. 
+        Used this analysis to help the sales team at an Influencer Marketing agency in creating more accurate sales proposals.
       </p>
     )
   },
