@@ -6,41 +6,11 @@ import { Element } from 'react-scroll'
 
 import { Section, Button, Title, Text, Box } from '../components/Core'
 import Contact from '../sections/landing1/Contact'
-import imgSenFol from '../assets/img/portfolio/senfollowers.png'
-import imgFolCount from '../assets/img/portfolio/folcount.png'
-import imgSenFriend from '../assets/img/portfolio/senfriends.png'
-import imgFrndCount from '../assets/img/portfolio/frcount.png'
-import imgSenTweet from '../assets/img/portfolio/sentweets.png'
-import imgTweetCount from '../assets/img/portfolio/twcount.png'
-import imgTweetDays from '../assets/img/portfolio/tweetdays.png'
-import imgTweetYears from '../assets/img/portfolio/tweetyears.png'
-import imgRetweets from '../assets/img/portfolio/retweets.png'
-import imgMentions from '../assets/img/portfolio/mentions.png'
-import imgInteractions from '../assets/img/portfolio/interaction.png'
-import imgCluster from '../assets/img/portfolio/cluster.png'
-import imgConnGraph from '../assets/img/portfolio/conngraph.png'
-import imgDegPlot from '../assets/img/portfolio/degreeplot.png'
-import imgElbow from '../assets/img/portfolio/elbow.png'
-import imgSenatorInt from '../assets/img/portfolio/senint.png'
-import imgHashtags from '../assets/img/portfolio/hashtags.png'
+
 
 import { device, breakpoints } from '../utils'
 
 
-import { HiArrowNarrowLeft,HiArrowNarrowRight} from 'react-icons/hi'
-import { BiDollar } from 'react-icons/bi'
-import { FaTrophy, FaSmileBeam } from 'react-icons/fa'
-import { FcFactory } from 'react-icons/fc'
-import { IoIosRocket } from 'react-icons/io'
-import { HiEye } from 'react-icons/hi'
-import { BiBong } from 'react-icons/bi'
-import { FaProjectDiagram } from 'react-icons/fa'
-import { HiOutlineBeaker } from 'react-icons/hi'
-import { HiOutlineDocumentText } from 'react-icons/hi'
-
-
-
-import { TbRobot, TbPlugConnected } from 'react-icons/tb'
 
 const WorkSingle = () => {
   return (
@@ -69,6 +39,42 @@ const WorkSingle = () => {
               </Title>
             </Col>
           </Row>
+
+          
+          <Row className="justify-content-center mt-5 mb-4">
+            <Col lg="9">
+              <Title variant="cardLg">01. Analysis Objective</Title>
+              <p>
+              The client (P&G) wanted to understand the impact of their packaging changes in the diaper category across South America on their sales.
+              Based on this analysis, P&G would make decisions on what type of packaging works best across sub-categories and markets. 
+              </p>
+            </Col>
+          </Row>
+          <Row className="justify-content-center mt-5 mb-4">
+            <Col lg="9">
+              <Title variant="cardLg">02. Data, Tools and Analysis</Title>
+              <p>
+              <p>Data for the analysis was procured from the following sources</p>
+              <p> 1) Nielsen database</p>
+              <p>2) Excel files from client containing data on packaging, associated promotions</p>
+              <p>3) Survey data </p>
+            <br>
+            </br>
+            <p>To analyse this data the following tools and steps were taken </p>
+            <p>1) Data was cleaned to remove unwanted variables ( more than 1000) in <code>R</code> and <code>Excel</code> </p>
+            <p>2) Data was collated using <code>SQL</code></p>
+            <p>3) A Naive Bayes model was created used <code>BayesiaLab</code></p>
+            <p>4) A report was created to present findings</p>
+            <br>
+            </br>
+            The main findings of this analysis were 
+            <p>1) Packaging variables like color, promotion text used had a minimal impact on the sales with the actual promotion being the feature with highest importance</p>
+            <p>2) Customer's perception of packaging did not impact sales ( Perception variables were not able to explain enough variance)</p>
+              </p>
+            </Col>
+          </Row>
+
+
           </Container>
       </Section>
       <Contact />
