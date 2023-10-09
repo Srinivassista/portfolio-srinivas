@@ -59,6 +59,14 @@ const WorkSingle = () => {
               </p>
             </Col>
           </Row>
+          <Row className="justify-content-center mt-5 mb-4">
+            <Col lg="9">
+              <Title variant="cardLg">02. Data Sources</Title>
+              <p>
+              The following data sources were used
+              </p>
+            </Col>
+          </Row>
           
           <Row
             className="justify-content-center mt-0 mb-4"
