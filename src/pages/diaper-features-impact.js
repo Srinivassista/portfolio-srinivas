@@ -155,7 +155,7 @@ const WorkSingle = () => {
                   <Col className="col-12 achievements-desc" lg="12" sm="9">
                     <Title variant="cardSm" className="mt-3">
                       Campaign and Packaging data in Excel
-                    
+                      </Title>
                   </Col>
                 </Row>
               </Col>
