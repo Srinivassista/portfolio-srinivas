@@ -195,6 +195,12 @@ const WorkSingle = () => {
         
             <br>
             </br>
+            <Row className="justify-content-center mt-5 mb-4">
+            <Col lg="9">
+              <Title variant="cardLg">03. Analysis steps and results</Title>
+              
+            </Col>
+          </Row>
             <p>To analyse this data the following tools and steps were taken </p>
             <p>1) Data was cleaned to remove unwanted variables ( more than 1000) in <code>R</code> and <code>Excel</code> </p>
             <p>2) Data was collated using <code>SQL</code></p>
