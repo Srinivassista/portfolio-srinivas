@@ -62,8 +62,7 @@ const Hero = () => {
                   `}
                   mb="2.5rem"
                 >
-                <p>
-                  I'm a data geek. Whether it's crunching numbers, manipulating data, or 
+                <p> I'm a data geek. Whether it's crunching numbers, manipulating data, or 
                   creating beautiful and impactful visualizations, I absolutely love it. 
                   It's amazing how it can guide strategic decisions and uncover hidden opportunities. 
                   You will always find me learning new techniques and putting them in practise to solve for business problems. 
