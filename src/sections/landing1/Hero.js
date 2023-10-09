@@ -56,7 +56,7 @@ const Hero = () => {
                     p {
                       line-height: 1.5;
                       font-size: 0.95rem;
-                      text-align: justify;
+                      text-align: left;
                       text-indent: 20px;
                     }
                   `}
